@@ -128,13 +128,13 @@
                 <content>
                     <item>
                         <description>Small</description>
-                        <label>$LOCALIZE[32025]</label>
+                        <label>Small</label>
                         <onclick>Dialog.Close(2136)</onclick>
                         <onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Small)</onclick>
                     </item>
 					<item>
                         <description>Large</description>
-                        <label>$LOCALIZE[32026]</label>
+                        <label>Large</label>
                         <onclick>Dialog.Close(2136)</onclick>
                         <onclick>Skin.SetString($INFO[Window(Home).Property(UsrSelectBtn)].WidgetLayout,Large)</onclick>
                     </item>

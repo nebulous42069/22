@@ -1013,7 +1013,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
         </description>
         <platform>all</platform>
     </extension>
-</addon><addon id="skin.xenon4k" name="[B][COLOR gold]Xenon 22[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="22.5">
+</addon><addon id="skin.xenon4k" name="[B][COLOR gold]Xenon 4K[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="22.51">
 	<requires>
 		<import addon="xbmc.gui" version="5.18.0" />
 		<import addon="script.skinshortcuts" version="2.0.1" />
