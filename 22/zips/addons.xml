@@ -87,6 +87,39 @@ Use this to quickly and easily organize your Favourites.
 		<fanart>fanart.jpg</fanart>
   </assets>
   </extension>
+</addon><addon id="plugin.video.cb20" version="2.2.5" name="CB20" provider-name="aitschti">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        
+        <import addon="inputstream.ffmpegdirect" version="20.0.0" />
+        <import addon="inputstream.adaptive" version="20.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.library" library="resources/lib/helperscript.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <news>
+All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
+        </news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+        <source />
+        <license>GPL-3.0</license>
+        <forum />
+        <website />
+        <email>burnermail2@posteo.de</email>
+        <summary lang="en_GB">Chaturbate for Kodi 20+</summary>
+        <summary lang="de_DE">Chaturbate für Kodi 20+</summary>
+        <description lang="en_GB">Chaturbate streaming for Kodi 20+</description>
+        <description lang="de_DE">Chaturbate streaming für Kodi 20+</description>
+        <disclaimer lang="en_GB">(c) 2025 aitschti</disclaimer>
+        <disclaimer lang="de_DE">(c) 2025 aitschti</disclaimer>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
 </addon><addon id="plugin.video.free99" version="1.9" name="[COLOR goldenrod]Free99[/COLOR]" provider-name="JewBMX, DIGGZ">
     <requires>
         <import addon="script.module.six" />
@@ -112,6 +145,30 @@ Use this to quickly and easily organize your Favourites.
         </assets>
         <news />
     </extension>
+</addon><addon id="plugin.video.lookmovietomb" name="LookMovie" version="1.0" provider-name="mbebe">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.inputstreamhelper" version="0.3.3" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="serverHTTP.py" />
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">https://www.lookmovie2.to</description>
+        <disclaimer lang="en">https://github.com/mbebe/blomqvist</disclaimer>    
+        <summary lang="en">https://www.lookmovie2.to</summary>
+        <language>en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>https://github.com/mbebe/blomqvist</website>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="plugin.video.playlistbrowser" name="Diggz TV Guide Lite" version="2.6.3" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -130,7 +187,7 @@ Use this to quickly and easily organize your Favourites.
   <extension point="xbmc.python.pluginsource" library="main.py">
     <provides>video</provides>
   </extension>
-</addon><addon id="plugin.video.seren" version="3.0.67" name="Seren" provider-name="Nixgates">
+</addon><addon id="plugin.video.seren" version="4.0.67" name="Seren 22" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
         <import addon="xbmc.python" version="3.0.0" />
