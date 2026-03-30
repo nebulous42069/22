@@ -55,7 +55,57 @@ Use this to quickly and easily organize your Favourites.
             <fanart>fanart.jpg</fanart>
      </assets>	
     </extension>
-</addon><addon id="plugin.program.pvr.setup" name="PVR/EPG Quick Setup" version="1.3.7" provider-name="Diggz">
+</addon><addon id="plugin.audio.mixcloud" name="Mixcloud" version="420.3.0.4" provider-name="jackyNIX">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+     <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">KODI plugin for Mixcloud</summary>
+    <summary lang="nl_NL">KODI plugin voor Mixcloud</summary>
+    <summary lang="fr_FR">KODI plugin pour Mixcloud</summary>
+    <summary lang="de_DE">KODI plugin für Mixcloud</summary>
+    <description lang="en_GB">Mixcloud is re-thinking radio. Listen to great radio shows, Podcasts and DJ mix sets on-demand.</description>
+    <description lang="nl_NL">Mixcloud herdefinieerd radio. Luister naar uitstekende radioshows, podcasts en dj sets on demand.</description>
+    <description lang="fr_FR">Mixcloud redéfinit la radio. Écoutez les émissions radio, podcasts et mixes DJ sur demande.</description>
+    <description lang="de_DE">Mixcloud erfindet Radio neu. Höre Radioshows, Podcasts und DJ Mixe wann immer Du willst.</description>
+    <news> 	
+      v3.0.4 (2023-10-08)
+      Fixed broken Addon (Fix by Darionis)
+    </news>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GPL-3.0-or-later</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=116386</forum>
+    <website>https://www.mixcloud.com</website>
+    <source>https://github.com/jackyNIX/xbmc-mixcloud-plugin</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+    </assets>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+  </extension>
+</addon><addon id="plugin.audio.radio_de_light" name="Radio.de light- In English" provider-name="Publish3r" version="421.1.0.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Radio.de light</summary>
+    <description lang="de_DE">Radiostreams von https://www.radio.de</description>
+    <language>de</language>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon><addon id="plugin.program.pvr.setup" name="PVR/EPG Quick Setup" version="1.3.9" provider-name="Diggz">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -67,6 +117,87 @@ Use this to quickly and easily organize your Favourites.
       <icon>icon.png</icon>
     </assets>
     </extension>
+</addon><addon id="plugin.program.quickfix" name="Quick Fixes" version="5" provider-name="Diggz">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB" />
+		<description lang="en_GB" />
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.program.skins" name="Diggz Skin Updater" version="2" provider-name="Diggz">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB" />
+		<description lang="en_GB" />
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
+</addon><addon id="plugin.program.xenonlive" name="Xenon Live Updater" version="5" provider-name="Diggz">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB" />
+		<description lang="en_GB" />
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+		<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<banner />
+				<clearlogo />
+				<screenshot />
+		</assets>
+	</extension>
 </addon><addon id="plugin.video.4kwallpapers" name="Diggz 4K Wallpapers" version="1.3.17" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
@@ -135,6 +266,29 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
         <disclaimer lang="de_DE">(c) 2025 aitschti</disclaimer>
         <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>
+</addon><addon id="plugin.video.dreammachine" name="[COLOR blue]D[COLOR salmon]r[COLOR violet]e[COLOR yellow]a[COLOR orange]m[COLOR lime]M[COLOR red]a[COLOR blue]c[COLOR salmon]h[COLOR violet]i[COLOR yellow]n[COLOR orange]e[/COLOR]" version="25.8.22" provider-name="[COLOR springgreen]G[/COLOR] [COLOR magenta]I[/COLOR][COLOR violet]n[/COLOR][COLOR mediumorchid]c[/COLOR][COLOR orchid].[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Where dreams do come true ...</summary>
+        <description lang="en">Where dreams do come true ...</description>
+        <website />
+        <license>GPL 3.0</license>
+        <platform>all</platform>
+        <language>en</language>
+        <disclaimer lang="en">The author of this addon makes not responsible for the use of it</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="plugin.video.free99" version="2.0" name="[COLOR goldenrod]Free99[/COLOR]" provider-name="JewBMX, DIGGZ">
     <requires>
         <import addon="script.module.six" />
@@ -160,7 +314,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
         </assets>
         <news />
     </extension>
-</addon><addon id="plugin.video.lookmovietomb" name="LookMovie" version="1.0" provider-name="mbebe">
+</addon><addon id="plugin.video.lookmovietomb" name="LookMovie" version="0.9" provider-name="mbebe">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.inputstreamhelper" version="0.3.3" />
@@ -184,7 +338,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.playlistbrowser" name="Diggz TV Guide Lite" version="2.6.3" provider-name="Diggz">
+</addon><addon id="plugin.video.playlistbrowser" name="Diggz TV Guide Lite" version="2.6.7" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
   </requires>
@@ -202,6 +356,42 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
   <extension point="xbmc.python.pluginsource" library="main.py">
     <provides>video</provides>
   </extension>
+</addon><addon id="plugin.video.sc19" version="2.2.2" name="SC19" provider-name="aitschti">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="inputstream.ffmpegdirect" version="19.0.0" optional="true" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    
+    <extension point="xbmc.python.library" library="resources/lib/helperscript.py" />
+    <extension point="xbmc.python.library" library="resources/lib/proxy_module.py" />
+    <extension point="xbmc.python.library" library="resources/lib/utils.py" />
+    
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <news>
+All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
+        </news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+        <source />
+        <license>GPL-3.0</license>
+        <forum />
+        <website />
+        <email>burnermail2@posteo.de</email>
+        <summary lang="en_GB">Stripchat for Kodi 19+</summary>
+        <summary lang="de_DE">Stripchat für Kodi 19+</summary>
+        <description lang="en_GB">Stripchat streaming for Kodi 19+</description>
+        <description lang="de_DE">Stripchat streaming für Kodi 19+</description>
+        <disclaimer lang="en_GB">(c) 2025 aitschti</disclaimer>
+        <disclaimer lang="de_DE">(c) 2025 aitschti</disclaimer>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+    </extension>
 </addon><addon id="plugin.video.seren" version="4.0.3" name="Seren 22" provider-name="Nixgates">
     <requires>
         <import addon="xbmc.addon" version="17.9.910" />
@@ -970,7 +1160,25 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="script.autorunsxenon" name="Autoruns Xenon" version="18" provider-name="fight night, Jon Bovi">
+</addon><addon id="repository.wod" name="Wrestling Repository" version="2.1" provider-name="WOD">
+	<extension point="xbmc.addon.repository" name="Wrestling Repository">
+		<dir>
+			<info compressed="false">https://l3grthu.com/repos/wodrepo/addons.xml</info>
+			<checksum>https://l3grthu.com/repos/wodrepo/addons.xml.md5</checksum>
+			<datadir zip="true">https://l3grthu.com/repos/wodrepo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>				
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en" />
+		<description lang="en" />
+		<genre>mix</genre>
+	</extension>
+</addon><addon id="script.autorunsxenon" name="Autoruns Xenon" version="19" provider-name="fight night, Jon Bovi">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
         <import addon="script.module.six" />
@@ -984,6 +1192,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
 		<import addon="script.module.jurialmunkey" version="0.2.11" />
 		<import addon="script.module.infotagger" version="0.0.5" />
         <import addon="script.skinvariables" version="1.0.0" />
+        <import addon="resource.images.studios.coloured" version="1.0.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -1002,6 +1211,53 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
 				<icon>icon.png</icon>
 		</assets>
     </extension>
+</addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="500.0.8" provider-name="Diggz">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Fullscreen Skin Gallery and Switcher for Kodi 21 (Omega)</summary>
+    <description lang="en">Browse curated skins with big screenshots</description>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon><addon id="script.module.xenon" name="Xenon Skin Updater" version="430" provider-name="Zaxxon709">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Diggz Xenon Updater</summary>
+		<description lang="en_GB">Kodi 21</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+	</extension>
+</addon><addon id="script.module.xenonlive" name="Xenon Live Skin Fix" version="430" provider-name="Zaxxon709">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Diggz Xenon Live Updater</summary>
+		<description lang="en_GB">Kodi 21</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum />
+		<website /> 
+		<email />
+		<source />
+	</extension>
 </addon><addon id="script.trailer.bridge" name="Trailer Bridge (TMDb → IMDb)" version="1.1.2" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
@@ -1030,7 +1286,1206 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.cb20
         </description>
         <platform>all</platform>
     </extension>
+</addon><addon id="service.blackbarsremover" name="Black Bars Remover" version="3.1.0" provider-name="milaq">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_gb">Automatically fit video to screen</summary>
+        <description lang="en_gb">Automatically adjusts the zoomlevel to eliminate black bars in videos. This addon also respects Kodi's "minimise black bars" setting.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum />
+        <website>https://milaq.net</website>
+        <email />
+        <source>https://github.com/milaq/kodi_addon_blackbarsremover</source>
+        <news />
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart />
+            <screenshot />
+        </assets>
+    </extension>
+</addon><addon id="skin.arctic.horizon.2" name="[B][COLOR gold]ArcticFlix[/COLOR][/B]   (High Power) (NO TOUCH/MOUSE)" provider-name="jurialmunkey" version="420.8.30~omega">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts" version="0.4.0" />
+        <import addon="script.skinvariables" version="1.0.0" />
+        <import addon="script.texturemaker" version="0.2.8" />
+        <import addon="plugin.video.themoviedb.helper" version="5.1.11~nexus" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.font.robotocjksc" version="0.0.1" />
+    </requires>
+    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Minimal. Classic. Gradients. Widgets.</summary>
+        <description lang="en">Arctic Horizon 2</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
+        <source />
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="skin.auraflix" version="2.1.9" name="[B][COLOR gold]DiggzFlix[/COLOR][/B]   (Mid Power) (NO MOUSE/TOUCH)" provider-name="skyfsza,inb4after,SerpentDrago">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skin.helper.service" version="1.1.24" />
+        <import addon="script.skinshortcuts" version="1.0.20" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.video.themoviedb.helper" version="4.3.7" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="resource.images.studios.coloured" version="0.0.18" />
+        <import addon="script.colorbox" version="2.0.8" />
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Matrix / Kodi 19 Version of Auramod </summary>
+        <description lang="en">AuraMod is a Heavily Modified version of Aura by jurialmunkey. Combining parts and code of Aura,AZ2,Titan bingie, and many other skins  Credit to all those Devs for without them this would not be possible [COLOR cyan]Mods to Aura by skyfsza,inb4after,SerpentDrago[/COLOR]</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/SerpentDrago/skin.auraflix</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+        <news>
+            v1.1.9
+            -Fix Aura Home horizontal menu layout
+            -Fix conditional spacers when horizontal menu enabled
+            -Add conditional spacer when category widget disabled
+            v1.1.8
+            -Fix weather widget visibility
+            -Fix skin settings labels
+            -Fix skin settings comment blocks
+            v1.1.7
+            -Fix empty enabled widgets visibility
+            -Fix default widget paths
+            v1.1.6
+            -Fix Aura Home autoscroll to hub
+            v1.1.5
+            -Fix Aura Home category widget spacing
+            -Remove widget gap when category widget is disabled
+            -Fix spotlight navigation down when category widget is disabled
+            -Remove invisible category widget for workaround of grouplist usecontrolcoords
+            v1.1.4
+            -Fix studio logo visibility while trailer is playing
+            v1.1.3
+            -Fix episode thumbnail spoilers
+            -Fix Kaito search path
+            v1.1.2
+            -Fix Aura Home spacing when weather header is enabled
+            v1.1.1
+            -Fix Aura Home horizontal menu layout
+            -Fix spotlight info and normal widget positions
+            -Fix Settings and Weather widget positions
+            -Fix home widget navigation with spotlights enabled
+            -Add conditional spacers for small category widget size
+            -Fix fullscreen spotlight widget positions
+            -Fix fullscreen spotlight button positions
+            -Add conditional spacers for fullscreen spotlight
+            -Add conditional spacers for widget spotlight
+            -Add conditional spacers for multi-widget spotlight
+            -Add conditional spacers for category widget size
+            v1.1.0
+            -Rework Aura Home layout
+            -Remove widget gap when category widget is disabled
+            -Fix focus skipping first widget when scrolling right from main menu to widgets
+            -Fix focus skipping first widget when scrolling down from multi-widget spotlight to widgets
+            -Improve spotlight current item indicators
+            -Fix first widget being cut-off
+            -Add conditional spacers
+            -Reposition multi-widget spotlight
+            -Reposition widget spotlight
+            -Fix disable aura home widget gap for new design
+            -Fix fullscreen spotlight button visibility when on first widget
+            -Fix fullscreen spotlight buttons inconsistencies
+            -Add invisible category widget to workaround grouplist usecontrolcoords
+            -Fix spotlight content being affected by normal widget focus
+            -Fix spotlight ratings being affected by normal widget focus
+            -Add hidden lists for spotlight content details
+            -Add gap for landscape widget style if spotlight is enabled
+            -Add autoscroll for widget spotlight plot
+            -Add autoscroll for multi-widget spotlight plot
+            -Fix autoscroll for multi-widget spotlight items
+            -Increase autoscroll timing for multi-widget spotlight items
+            -Increase multi-widget spotlight title width
+            -Fix multi-widget spotlight content being affected by normal widget focus
+            -Fix movies fullscreen spotlight disappearing on normal widget focus
+            -Add autoscroll for fullscreen spotlight plot
+            -Increase autoscroll timing for fullscreen spotlight items
+            -Fix Netflix Home widgets sliding down on fullscreen spotlight focus with category widget disabled
+            v1.0.36
+            -Localization rework
+            -Add localization for many skin labels
+            -Add new localized labels to all languages
+            -Add en_gb, nl_nl, pt_br strings.po
+            -Fix localization issues in all strings.po
+            -Fix TV show status being cut-off
+            -Fix LoveFilm view ratings being cut-off
+            -Fix episode airdate being cut-off
+            -Fix script.skinshortcuts header label being cut-off
+            -Fix RT critics consensus visibility
+            -Fix double end tag
+            -Fix colorbox advanced blur settings textbox position
+            v1.0.35
+            -Fix Netflix Home Info "jumping" when clearlogo missing for adjacent item
+            v1.0.34
+            -Add Netflix Info "More Episodes" button for TMDBHelper episodes
+            v1.0.33
+            -Fix script.artistslideshow update notice for MusicVisualisation.xml
+            v1.0.32
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            -Fix Netflix Info "Cast and More" clearlogo fallback text ghosting
+            -Fix Netflix Info "Cast and More" clearlogo inconsistency
+            v1.0.31
+            -Fix cast list "Staring" spelling mistake
+            v1.0.30
+            -Improve Skin Helper Service Widgets similar title
+            -Match font with widget label
+            -Remove prefix "to"
+            -Fix positioning
+            v1.0.29
+            -Improve LandscapePanel widget position
+            v1.0.28
+            -Improve Netflix Info "Cast and More" Seasons/Episodes/Next Up List views
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.27
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            v1.0.26
+            -Fix Netflix Info "Cast and More" clearlogo fallback text for episode info
+            v1.0.25
+            -Fix Netflix Info "Cast and More" clearlogo visibility on focus cast
+            -Fix Netflix Info "Cast and More" clearlogo texture inconsistencies
+            v1.0.24
+            -Add Netflix Info "Cast and More" dynamic container clearlogo
+            v1.0.23
+            -Re-add Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Force home window properties to only be used if widget is focused: avoids performance issues and quickly hitting OMDb rate limits
+            -Save initial widget container onload/onunload of DialogVideoInfo.xml
+            -More Info widget made visible only for movies
+            -More Info fallback label added if no RT information found
+            v1.0.22
+            -Remove Netflix Info "Cast and More" Ratings
+            -Revert: Fix Netflix Info "Cast and More" Ratings
+            -Re-commit: Adjust Widget_TMDB position
+            v1.0.21
+            -Fix Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Adjust Widget_TMDB position
+            v1.0.20
+            -Fix small category widget position for Aura Home
+            v1.0.19
+            -Fix widget positioning being off-set after upwards scrolling
+            v1.0.18
+            -Repo release
+            v1.0.17
+            -Fix multi-widget spotlight studio logo visibility on widget spotlights
+            -Add "Kod" an Italian addon for movies and tv series to default search items
+            v1.0.16
+            -Fix studio logos for Widget Spotlights
+            v1.0.15
+            -Improve Netflix Episode List view
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.14
+            -Fix actor thumbnails on multi-widget spotlights
+            -Fix studio logos for multi-widget spotlights
+            v1.0.13
+            -Fix studio logos for Aura Home
+            v1.0.12
+            -Fix studio logo duplicate ID
+            v1.0.11
+            -Repo Release
+            -Reworked addon.xml
+            v1.0.10
+            -Fix star rating visibility on "See More" widget items
+            -addon.xml overhaul
+            v1.0.9
+            -Fix "small category widget" focus highlight for netflix home
+            v1.0.8
+            -Fix Studio logos for aura home
+            V1.0.7
+            -Massive Studio Logo and ratings overhall
+            -Add more default/built in search lists (Kato,Venom,Fen)
+            -updated instructions in readme
+            -added script.colorbox to imports
+            -added TMDBHelper 4.3.7 to imports
+            -Fix Skinshortcuts widgets with color code in label
+            -Fix RT usermeter visibility condition for Liked %
+            -changed Liked % to use RT usermeter rating
+            -Add Monochrome RT certified icon
+            -Add DialogVideoInfo.xml monochrome studio logo support 
+            -Fix star ratings for seasons in library views
+            -Fix episode duration visibility 
+            v1.0.6
+            -Fix RT icons in "More Info" section of "Cast and More"
+            -Improve custom Actor Window handling
+            -Fix missing ) in next aired and imdb_rating
+            -Fix "Cast and More" navigation initial info entry point
+            -Fix "Cast and More" actor navigation in MyVideoNav.xml
+            v1.0.5
+            -Massive overhal to use TMDBHelper for ratings and artwork instead of SkinHelper
+            -Massive overhal to navigation in Netflix info "cast and more"
+            -Massive overhal to Netflix info (fixed play , episodes , and other buttons)
+            v1.0.4
+            -Fix startup video hang bug
+            -Lots of fixs to various library views and the images used 
+            -Fix Dependency Hang on startup
+            -Removed old XBMC. references throughout skin
+            -Fix tmdbhelper widget netflix info "Episodes" button
+            -Fix hang on opening addon dependencies
+            -Fix Widget Aspect for skin shortcuts
+            -Fix addon versions menu
+            -removed unload conditions that are no longer needed for matrix
+            -Fixed unmatched ()
+            -Tweaked display of notification/busy dialog
+            -Fixed shade on volume controls 
+            -Temp fix error with "multi widget spotlight" style Removed actors for now
+            v1.0.3.1
+            -Status bar OSD now follows main skin Highlight color
+            -OSD time Elapsed Separators now match skin highlight color 2
+            -Removed disable mouse/touch on startup 
+            -Added Partial Spanish Translation
+            V1.0.2
+            -replaced old xbmc. commands with modern equivalents in power menus
+            -readme update
+            v1.0.1
+            -Fix addon info buttons not showing
+            -readme update
+            V1.0 Matrix Release
+            -Various changes so skin would install on Matrix
+        </news>
+    </extension>
+</addon><addon id="skin.diggzflix" version="420.1.0.8" name="[B][COLOR gold]DiggzFlix 2[/COLOR][/B]  (Mid Power)" provider-name="matke">
+	<requires>
+		<import version="5.17.0" addon="xbmc.gui" />
+		<import addon="script.bingie.helper" version="1.1.2" />
+		<import addon="script.bingie.toolbox" version="1.0.0" />
+		<import addon="script.bingie.widgets" version="1.0.1" />
+		<import addon="script.skinshortcuts" version="2.0.3" />
+		<import addon="resource.images.studios.coloured" version="0.0.23" />
+		<import addon="plugin.video.themoviedb.helper" version="6.0.9" />
+		<import addon="script.wikipedia" version="0.0.6" />
+		<import addon="plugin.program.autocompletion" version="2.1.3" />
+	</requires>
+	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Kodi skin with Netflix layout.</summary>
+		<summary lang="zh_CN">Netflix布局Kodi皮肤。</summary>
+		<description lang="en_GB">Bingie – The home of your favorite movies and shows!</description>
+		<description lang="zh_CN">Bingie -你最喜欢的电影和节目的家！</description>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum />
+		<source />
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>			
+		</assets>
+	</extension>
+</addon><addon id="skin.diggzkids" version="5.5" name="[B][COLOR gold]Diggz Kidz[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano">
+  <requires>
+    <import addon="xbmc.gui" version="5.17.0" />
+	<import addon="script.favourites" version="8.1.2" />
+	<import addon="script.image.resource.select" version="3.0.2" />
+	<import addon="resource.images.skinbackgrounds.diggzkidz" version="0.0.1" />	
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false" effectslowdown=".5">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+    <description lang="en">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <description lang="en_US">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+    <disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+    <disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
+    <platform>all</platform>
+	  <license>GNU General Public License version 2</license>
+	  <forum>https://forum.kodi.tv/showthread.php?tid=346302</forum>
+	  <website />
+	  <email />
+	  <source>https://github.com/bartolomesoriano/skin.diggzkids</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+	    <screenshot>resources/screenshot-01.jpg</screenshot>
+    </assets>
+    <news>See changelog for latest changes</news>
+  </extension>
+</addon><addon id="skin.eminence.2.fen" version="421.3.0.4" name="[B][COLOR gold]Fentastic[/COLOR][/B]  (Mid Power)" provider-name="Diggz">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+		<import addon="script.skinshortcuts" version="1.0.17" />
+		<import addon="script.skin.helper.service" version="1.0.0" />
+		<import addon="script.skin.helper.colorpicker" version="1.0.12" />
+        <import addon="script.image.resource.select" version="0.0.5" />	
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">-DEBRID AND TRAKT REQUIRED-A skin featuring the FEN addon with Debrid and Trakt integration.</summary>
+        <description lang="en">-DEBRID AND TRAKT REQUIRED-A skin featuring the FEN addon with Debrid and Trakt integration.</description>
+        <description lang="fr">-DEBRID AND TRAKT REQUIRED-A skin featuring the FEN addon with Debrid and Trakt integration.</description>
+		<assets>
+		 	<icon>icon.png</icon>
+ 			<fanart>fanart.jpg</fanart>
+		</assets>	
+		<news> 
+		</news>
+	</extension>
+</addon><addon id="skin.eminence.2.mod" version="421.3.0.4" name="[B][COLOR gold]Eminence[/COLOR][/B]  (Mid Power)" provider-name="Diggz">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinshortcuts" version="1.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="4.4.0" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="resource.images.weatherfanart.single" version="0.0.6" />		
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Diggz Eminence</summary>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<assets>
+		 	<icon>icon.png</icon>
+ 			<fanart>fanart.jpg</fanart>
+		</assets>	
+		<news> 
+		</news>
+	</extension>
+</addon><addon id="skin.povflix" version="423.1.1.9" name="[B][COLOR gold]FenFlix[/COLOR][/B]   (Mid Power) (NO TOUCH/MOUSE)" provider-name="skyfsza,inb4after,SerpentDrago">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skin.helper.service" version="1.1.24" />
+        <import addon="script.skinshortcuts" version="1.0.20" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="resource.images.studios.coloured" version="0.0.18" />
+        <import addon="script.colorbox" version="2.0.8" />		
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Matrix / Kodi 19 Version of Auramod </summary>
+        <description lang="en">AuraMod is a Heavily Modified version of Aura by jurialmunkey. Combining parts and code of Aura,AZ2,Titan bingie, and many other skins  Credit to all those Devs for without them this would not be possible [COLOR cyan]Mods to Aura by skyfsza,inb4after,SerpentDrago[/COLOR]</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/SerpentDrago/skin.povflix</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+        <news>
+            v1.1.9
+            -Fix Aura Home horizontal menu layout
+            -Fix conditional spacers when horizontal menu enabled
+            -Add conditional spacer when category widget disabled
+            v1.1.8
+            -Fix weather widget visibility
+            -Fix skin settings labels
+            -Fix skin settings comment blocks
+            v1.1.7
+            -Fix empty enabled widgets visibility
+            -Fix default widget paths
+            v1.1.6
+            -Fix Aura Home autoscroll to hub
+            v1.1.5
+            -Fix Aura Home category widget spacing
+            -Remove widget gap when category widget is disabled
+            -Fix spotlight navigation down when category widget is disabled
+            -Remove invisible category widget for workaround of grouplist usecontrolcoords
+            v1.1.4
+            -Fix studio logo visibility while trailer is playing
+            v1.1.3
+            -Fix episode thumbnail spoilers
+            -Fix Kaito search path
+            v1.1.2
+            -Fix Aura Home spacing when weather header is enabled
+            v1.1.1
+            -Fix Aura Home horizontal menu layout
+            -Fix spotlight info and normal widget positions
+            -Fix Settings and Weather widget positions
+            -Fix home widget navigation with spotlights enabled
+            -Add conditional spacers for small category widget size
+            -Fix fullscreen spotlight widget positions
+            -Fix fullscreen spotlight button positions
+            -Add conditional spacers for fullscreen spotlight
+            -Add conditional spacers for widget spotlight
+            -Add conditional spacers for multi-widget spotlight
+            -Add conditional spacers for category widget size
+            v1.1.0
+            -Rework Aura Home layout
+            -Remove widget gap when category widget is disabled
+            -Fix focus skipping first widget when scrolling right from main menu to widgets
+            -Fix focus skipping first widget when scrolling down from multi-widget spotlight to widgets
+            -Improve spotlight current item indicators
+            -Fix first widget being cut-off
+            -Add conditional spacers
+            -Reposition multi-widget spotlight
+            -Reposition widget spotlight
+            -Fix disable aura home widget gap for new design
+            -Fix fullscreen spotlight button visibility when on first widget
+            -Fix fullscreen spotlight buttons inconsistencies
+            -Add invisible category widget to workaround grouplist usecontrolcoords
+            -Fix spotlight content being affected by normal widget focus
+            -Fix spotlight ratings being affected by normal widget focus
+            -Add hidden lists for spotlight content details
+            -Add gap for landscape widget style if spotlight is enabled
+            -Add autoscroll for widget spotlight plot
+            -Add autoscroll for multi-widget spotlight plot
+            -Fix autoscroll for multi-widget spotlight items
+            -Increase autoscroll timing for multi-widget spotlight items
+            -Increase multi-widget spotlight title width
+            -Fix multi-widget spotlight content being affected by normal widget focus
+            -Fix movies fullscreen spotlight disappearing on normal widget focus
+            -Add autoscroll for fullscreen spotlight plot
+            -Increase autoscroll timing for fullscreen spotlight items
+            -Fix Netflix Home widgets sliding down on fullscreen spotlight focus with category widget disabled
+            v1.0.36
+            -Localization rework
+            -Add localization for many skin labels
+            -Add new localized labels to all languages
+            -Add en_gb, nl_nl, pt_br strings.po
+            -Fix localization issues in all strings.po
+            -Fix TV show status being cut-off
+            -Fix LoveFilm view ratings being cut-off
+            -Fix episode airdate being cut-off
+            -Fix script.skinshortcuts header label being cut-off
+            -Fix RT critics consensus visibility
+            -Fix double end tag
+            -Fix colorbox advanced blur settings textbox position
+            v1.0.35
+            -Fix Netflix Home Info "jumping" when clearlogo missing for adjacent item
+            v1.0.34
+            -Add Netflix Info "More Episodes" button for TMDBHelper episodes
+            v1.0.33
+            -Fix script.artistslideshow update notice for MusicVisualisation.xml
+            v1.0.32
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            -Fix Netflix Info "Cast and More" clearlogo fallback text ghosting
+            -Fix Netflix Info "Cast and More" clearlogo inconsistency
+            v1.0.31
+            -Fix cast list "Staring" spelling mistake
+            v1.0.30
+            -Improve Skin Helper Service Widgets similar title
+            -Match font with widget label
+            -Remove prefix "to"
+            -Fix positioning
+            v1.0.29
+            -Improve LandscapePanel widget position
+            v1.0.28
+            -Improve Netflix Info "Cast and More" Seasons/Episodes/Next Up List views
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.27
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            v1.0.26
+            -Fix Netflix Info "Cast and More" clearlogo fallback text for episode info
+            v1.0.25
+            -Fix Netflix Info "Cast and More" clearlogo visibility on focus cast
+            -Fix Netflix Info "Cast and More" clearlogo texture inconsistencies
+            v1.0.24
+            -Add Netflix Info "Cast and More" dynamic container clearlogo
+            v1.0.23
+            -Re-add Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Force home window properties to only be used if widget is focused: avoids performance issues and quickly hitting OMDb rate limits
+            -Save initial widget container onload/onunload of DialogVideoInfo.xml
+            -More Info widget made visible only for movies
+            -More Info fallback label added if no RT information found
+            v1.0.22
+            -Remove Netflix Info "Cast and More" Ratings
+            -Revert: Fix Netflix Info "Cast and More" Ratings
+            -Re-commit: Adjust Widget_TMDB position
+            v1.0.21
+            -Fix Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Adjust Widget_TMDB position
+            v1.0.20
+            -Fix small category widget position for Aura Home
+            v1.0.19
+            -Fix widget positioning being off-set after upwards scrolling
+            v1.0.18
+            -Repo release
+            v1.0.17
+            -Fix multi-widget spotlight studio logo visibility on widget spotlights
+            -Add "Kod" an Italian addon for movies and tv series to default search items
+            v1.0.16
+            -Fix studio logos for Widget Spotlights
+            v1.0.15
+            -Improve Netflix Episode List view
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.14
+            -Fix actor thumbnails on multi-widget spotlights
+            -Fix studio logos for multi-widget spotlights
+            v1.0.13
+            -Fix studio logos for Aura Home
+            v1.0.12
+            -Fix studio logo duplicate ID
+            v1.0.11
+            -Repo Release
+            -Reworked addon.xml
+            v1.0.10
+            -Fix star rating visibility on "See More" widget items
+            -addon.xml overhaul
+            v1.0.9
+            -Fix "small category widget" focus highlight for netflix home
+            v1.0.8
+            -Fix Studio logos for aura home
+            V1.0.7
+            -Massive Studio Logo and ratings overhall
+            -Add more default/built in search lists (Kato,Venom,Fen)
+            -updated instructions in readme
+            -added script.colorbox to imports
+            -added TMDBHelper 4.3.7 to imports
+            -Fix Skinshortcuts widgets with color code in label
+            -Fix RT usermeter visibility condition for Liked %
+            -changed Liked % to use RT usermeter rating
+            -Add Monochrome RT certified icon
+            -Add DialogVideoInfo.xml monochrome studio logo support 
+            -Fix star ratings for seasons in library views
+            -Fix episode duration visibility 
+            v1.0.6
+            -Fix RT icons in "More Info" section of "Cast and More"
+            -Improve custom Actor Window handling
+            -Fix missing ) in next aired and imdb_rating
+            -Fix "Cast and More" navigation initial info entry point
+            -Fix "Cast and More" actor navigation in MyVideoNav.xml
+            v1.0.5
+            -Massive overhal to use TMDBHelper for ratings and artwork instead of SkinHelper
+            -Massive overhal to navigation in Netflix info "cast and more"
+            -Massive overhal to Netflix info (fixed play , episodes , and other buttons)
+            v1.0.4
+            -Fix startup video hang bug
+            -Lots of fixs to various library views and the images used 
+            -Fix Dependency Hang on startup
+            -Removed old XBMC. references throughout skin
+            -Fix tmdbhelper widget netflix info "Episodes" button
+            -Fix hang on opening addon dependencies
+            -Fix Widget Aspect for skin shortcuts
+            -Fix addon versions menu
+            -removed unload conditions that are no longer needed for matrix
+            -Fixed unmatched ()
+            -Tweaked display of notification/busy dialog
+            -Fixed shade on volume controls 
+            -Temp fix error with "multi widget spotlight" style Removed actors for now
+            v1.0.3.1
+            -Status bar OSD now follows main skin Highlight color
+            -OSD time Elapsed Separators now match skin highlight color 2
+            -Removed disable mouse/touch on startup 
+            -Added Partial Spanish Translation
+            V1.0.2
+            -replaced old xbmc. commands with modern equivalents in power menus
+            -readme update
+            v1.0.1
+            -Fix addon info buttons not showing
+            -readme update
+            V1.0 Matrix Release
+            -Various changes so skin would install on Matrix
+        </news>
+    </extension>
+</addon><addon id="skin.serenflix" version="423.1.1.9" name="[B][COLOR gold]SerenFlix[/COLOR][/B]   (Mid Power) (NO TOUCH/MOUSE)" provider-name="skyfsza,inb4after,SerpentDrago">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skin.helper.service" version="1.1.24" />
+        <import addon="script.skinshortcuts" version="1.0.20" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="resource.images.studios.coloured" version="0.0.18" />
+        <import addon="script.colorbox" version="2.0.8" />		
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Matrix / Kodi 19 Version of Auramod </summary>
+        <description lang="en">AuraMod is a Heavily Modified version of Aura by jurialmunkey. Combining parts and code of Aura,AZ2,Titan bingie, and many other skins  Credit to all those Devs for without them this would not be possible [COLOR cyan]Mods to Aura by skyfsza,inb4after,SerpentDrago[/COLOR]</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/SerpentDrago/skin.serenflix</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+        <news>
+            v1.1.9
+            -Fix Aura Home horizontal menu layout
+            -Fix conditional spacers when horizontal menu enabled
+            -Add conditional spacer when category widget disabled
+            v1.1.8
+            -Fix weather widget visibility
+            -Fix skin settings labels
+            -Fix skin settings comment blocks
+            v1.1.7
+            -Fix empty enabled widgets visibility
+            -Fix default widget paths
+            v1.1.6
+            -Fix Aura Home autoscroll to hub
+            v1.1.5
+            -Fix Aura Home category widget spacing
+            -Remove widget gap when category widget is disabled
+            -Fix spotlight navigation down when category widget is disabled
+            -Remove invisible category widget for workaround of grouplist usecontrolcoords
+            v1.1.4
+            -Fix studio logo visibility while trailer is playing
+            v1.1.3
+            -Fix episode thumbnail spoilers
+            -Fix Kaito search path
+            v1.1.2
+            -Fix Aura Home spacing when weather header is enabled
+            v1.1.1
+            -Fix Aura Home horizontal menu layout
+            -Fix spotlight info and normal widget positions
+            -Fix Settings and Weather widget positions
+            -Fix home widget navigation with spotlights enabled
+            -Add conditional spacers for small category widget size
+            -Fix fullscreen spotlight widget positions
+            -Fix fullscreen spotlight button positions
+            -Add conditional spacers for fullscreen spotlight
+            -Add conditional spacers for widget spotlight
+            -Add conditional spacers for multi-widget spotlight
+            -Add conditional spacers for category widget size
+            v1.1.0
+            -Rework Aura Home layout
+            -Remove widget gap when category widget is disabled
+            -Fix focus skipping first widget when scrolling right from main menu to widgets
+            -Fix focus skipping first widget when scrolling down from multi-widget spotlight to widgets
+            -Improve spotlight current item indicators
+            -Fix first widget being cut-off
+            -Add conditional spacers
+            -Reposition multi-widget spotlight
+            -Reposition widget spotlight
+            -Fix disable aura home widget gap for new design
+            -Fix fullscreen spotlight button visibility when on first widget
+            -Fix fullscreen spotlight buttons inconsistencies
+            -Add invisible category widget to workaround grouplist usecontrolcoords
+            -Fix spotlight content being affected by normal widget focus
+            -Fix spotlight ratings being affected by normal widget focus
+            -Add hidden lists for spotlight content details
+            -Add gap for landscape widget style if spotlight is enabled
+            -Add autoscroll for widget spotlight plot
+            -Add autoscroll for multi-widget spotlight plot
+            -Fix autoscroll for multi-widget spotlight items
+            -Increase autoscroll timing for multi-widget spotlight items
+            -Increase multi-widget spotlight title width
+            -Fix multi-widget spotlight content being affected by normal widget focus
+            -Fix movies fullscreen spotlight disappearing on normal widget focus
+            -Add autoscroll for fullscreen spotlight plot
+            -Increase autoscroll timing for fullscreen spotlight items
+            -Fix Netflix Home widgets sliding down on fullscreen spotlight focus with category widget disabled
+            v1.0.36
+            -Localization rework
+            -Add localization for many skin labels
+            -Add new localized labels to all languages
+            -Add en_gb, nl_nl, pt_br strings.po
+            -Fix localization issues in all strings.po
+            -Fix TV show status being cut-off
+            -Fix LoveFilm view ratings being cut-off
+            -Fix episode airdate being cut-off
+            -Fix script.skinshortcuts header label being cut-off
+            -Fix RT critics consensus visibility
+            -Fix double end tag
+            -Fix colorbox advanced blur settings textbox position
+            v1.0.35
+            -Fix Netflix Home Info "jumping" when clearlogo missing for adjacent item
+            v1.0.34
+            -Add Netflix Info "More Episodes" button for TMDBHelper episodes
+            v1.0.33
+            -Fix script.artistslideshow update notice for MusicVisualisation.xml
+            v1.0.32
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            -Fix Netflix Info "Cast and More" clearlogo fallback text ghosting
+            -Fix Netflix Info "Cast and More" clearlogo inconsistency
+            v1.0.31
+            -Fix cast list "Staring" spelling mistake
+            v1.0.30
+            -Improve Skin Helper Service Widgets similar title
+            -Match font with widget label
+            -Remove prefix "to"
+            -Fix positioning
+            v1.0.29
+            -Improve LandscapePanel widget position
+            v1.0.28
+            -Improve Netflix Info "Cast and More" Seasons/Episodes/Next Up List views
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.27
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            v1.0.26
+            -Fix Netflix Info "Cast and More" clearlogo fallback text for episode info
+            v1.0.25
+            -Fix Netflix Info "Cast and More" clearlogo visibility on focus cast
+            -Fix Netflix Info "Cast and More" clearlogo texture inconsistencies
+            v1.0.24
+            -Add Netflix Info "Cast and More" dynamic container clearlogo
+            v1.0.23
+            -Re-add Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Force home window properties to only be used if widget is focused: avoids performance issues and quickly hitting OMDb rate limits
+            -Save initial widget container onload/onunload of DialogVideoInfo.xml
+            -More Info widget made visible only for movies
+            -More Info fallback label added if no RT information found
+            v1.0.22
+            -Remove Netflix Info "Cast and More" Ratings
+            -Revert: Fix Netflix Info "Cast and More" Ratings
+            -Re-commit: Adjust Widget_TMDB position
+            v1.0.21
+            -Fix Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Adjust Widget_TMDB position
+            v1.0.20
+            -Fix small category widget position for Aura Home
+            v1.0.19
+            -Fix widget positioning being off-set after upwards scrolling
+            v1.0.18
+            -Repo release
+            v1.0.17
+            -Fix multi-widget spotlight studio logo visibility on widget spotlights
+            -Add "Kod" an Italian addon for movies and tv series to default search items
+            v1.0.16
+            -Fix studio logos for Widget Spotlights
+            v1.0.15
+            -Improve Netflix Episode List view
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.14
+            -Fix actor thumbnails on multi-widget spotlights
+            -Fix studio logos for multi-widget spotlights
+            v1.0.13
+            -Fix studio logos for Aura Home
+            v1.0.12
+            -Fix studio logo duplicate ID
+            v1.0.11
+            -Repo Release
+            -Reworked addon.xml
+            v1.0.10
+            -Fix star rating visibility on "See More" widget items
+            -addon.xml overhaul
+            v1.0.9
+            -Fix "small category widget" focus highlight for netflix home
+            v1.0.8
+            -Fix Studio logos for aura home
+            V1.0.7
+            -Massive Studio Logo and ratings overhall
+            -Add more default/built in search lists (Kato,Venom,Fen)
+            -updated instructions in readme
+            -added script.colorbox to imports
+            -added TMDBHelper 4.3.7 to imports
+            -Fix Skinshortcuts widgets with color code in label
+            -Fix RT usermeter visibility condition for Liked %
+            -changed Liked % to use RT usermeter rating
+            -Add Monochrome RT certified icon
+            -Add DialogVideoInfo.xml monochrome studio logo support 
+            -Fix star ratings for seasons in library views
+            -Fix episode duration visibility 
+            v1.0.6
+            -Fix RT icons in "More Info" section of "Cast and More"
+            -Improve custom Actor Window handling
+            -Fix missing ) in next aired and imdb_rating
+            -Fix "Cast and More" navigation initial info entry point
+            -Fix "Cast and More" actor navigation in MyVideoNav.xml
+            v1.0.5
+            -Massive overhal to use TMDBHelper for ratings and artwork instead of SkinHelper
+            -Massive overhal to navigation in Netflix info "cast and more"
+            -Massive overhal to Netflix info (fixed play , episodes , and other buttons)
+            v1.0.4
+            -Fix startup video hang bug
+            -Lots of fixs to various library views and the images used 
+            -Fix Dependency Hang on startup
+            -Removed old XBMC. references throughout skin
+            -Fix tmdbhelper widget netflix info "Episodes" button
+            -Fix hang on opening addon dependencies
+            -Fix Widget Aspect for skin shortcuts
+            -Fix addon versions menu
+            -removed unload conditions that are no longer needed for matrix
+            -Fixed unmatched ()
+            -Tweaked display of notification/busy dialog
+            -Fixed shade on volume controls 
+            -Temp fix error with "multi widget spotlight" style Removed actors for now
+            v1.0.3.1
+            -Status bar OSD now follows main skin Highlight color
+            -OSD time Elapsed Separators now match skin highlight color 2
+            -Removed disable mouse/touch on startup 
+            -Added Partial Spanish Translation
+            V1.0.2
+            -replaced old xbmc. commands with modern equivalents in power menus
+            -readme update
+            v1.0.1
+            -Fix addon info buttons not showing
+            -readme update
+            V1.0 Matrix Release
+            -Various changes so skin would install on Matrix
+        </news>
+    </extension>
+</addon><addon id="skin.umbrellaflix" version="423.1.1.9" name="[B][COLOR gold]UmbrellaFlix[/COLOR][/B]   (Mid Power) (NO TOUCH/MOUSE)" provider-name="skyfsza,inb4after,SerpentDrago">
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skin.helper.service" version="1.1.24" />
+        <import addon="script.skinshortcuts" version="1.0.20" />
+        <import addon="script.image.resource.select" version="0.0.5" />
+        <import addon="plugin.program.autocompletion" version="1.0.1" />
+        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="resource.images.studios.coloured" version="0.0.18" />
+        <import addon="script.colorbox" version="2.0.8" />		
+    </requires>
+    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Matrix / Kodi 19 Version of Auramod </summary>
+        <description lang="en">AuraMod is a Heavily Modified version of Aura by jurialmunkey. Combining parts and code of Aura,AZ2,Titan bingie, and many other skins  Credit to all those Devs for without them this would not be possible [COLOR cyan]Mods to Aura by skyfsza,inb4after,SerpentDrago[/COLOR]</description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <source>https://github.com/SerpentDrago/skin.umbrellaflix</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+            <screenshot>resources/screenshot-05.jpg</screenshot>
+        </assets>
+        <news>
+            v1.1.9
+            -Fix Aura Home horizontal menu layout
+            -Fix conditional spacers when horizontal menu enabled
+            -Add conditional spacer when category widget disabled
+            v1.1.8
+            -Fix weather widget visibility
+            -Fix skin settings labels
+            -Fix skin settings comment blocks
+            v1.1.7
+            -Fix empty enabled widgets visibility
+            -Fix default widget paths
+            v1.1.6
+            -Fix Aura Home autoscroll to hub
+            v1.1.5
+            -Fix Aura Home category widget spacing
+            -Remove widget gap when category widget is disabled
+            -Fix spotlight navigation down when category widget is disabled
+            -Remove invisible category widget for workaround of grouplist usecontrolcoords
+            v1.1.4
+            -Fix studio logo visibility while trailer is playing
+            v1.1.3
+            -Fix episode thumbnail spoilers
+            -Fix Kaito search path
+            v1.1.2
+            -Fix Aura Home spacing when weather header is enabled
+            v1.1.1
+            -Fix Aura Home horizontal menu layout
+            -Fix spotlight info and normal widget positions
+            -Fix Settings and Weather widget positions
+            -Fix home widget navigation with spotlights enabled
+            -Add conditional spacers for small category widget size
+            -Fix fullscreen spotlight widget positions
+            -Fix fullscreen spotlight button positions
+            -Add conditional spacers for fullscreen spotlight
+            -Add conditional spacers for widget spotlight
+            -Add conditional spacers for multi-widget spotlight
+            -Add conditional spacers for category widget size
+            v1.1.0
+            -Rework Aura Home layout
+            -Remove widget gap when category widget is disabled
+            -Fix focus skipping first widget when scrolling right from main menu to widgets
+            -Fix focus skipping first widget when scrolling down from multi-widget spotlight to widgets
+            -Improve spotlight current item indicators
+            -Fix first widget being cut-off
+            -Add conditional spacers
+            -Reposition multi-widget spotlight
+            -Reposition widget spotlight
+            -Fix disable aura home widget gap for new design
+            -Fix fullscreen spotlight button visibility when on first widget
+            -Fix fullscreen spotlight buttons inconsistencies
+            -Add invisible category widget to workaround grouplist usecontrolcoords
+            -Fix spotlight content being affected by normal widget focus
+            -Fix spotlight ratings being affected by normal widget focus
+            -Add hidden lists for spotlight content details
+            -Add gap for landscape widget style if spotlight is enabled
+            -Add autoscroll for widget spotlight plot
+            -Add autoscroll for multi-widget spotlight plot
+            -Fix autoscroll for multi-widget spotlight items
+            -Increase autoscroll timing for multi-widget spotlight items
+            -Increase multi-widget spotlight title width
+            -Fix multi-widget spotlight content being affected by normal widget focus
+            -Fix movies fullscreen spotlight disappearing on normal widget focus
+            -Add autoscroll for fullscreen spotlight plot
+            -Increase autoscroll timing for fullscreen spotlight items
+            -Fix Netflix Home widgets sliding down on fullscreen spotlight focus with category widget disabled
+            v1.0.36
+            -Localization rework
+            -Add localization for many skin labels
+            -Add new localized labels to all languages
+            -Add en_gb, nl_nl, pt_br strings.po
+            -Fix localization issues in all strings.po
+            -Fix TV show status being cut-off
+            -Fix LoveFilm view ratings being cut-off
+            -Fix episode airdate being cut-off
+            -Fix script.skinshortcuts header label being cut-off
+            -Fix RT critics consensus visibility
+            -Fix double end tag
+            -Fix colorbox advanced blur settings textbox position
+            v1.0.35
+            -Fix Netflix Home Info "jumping" when clearlogo missing for adjacent item
+            v1.0.34
+            -Add Netflix Info "More Episodes" button for TMDBHelper episodes
+            v1.0.33
+            -Fix script.artistslideshow update notice for MusicVisualisation.xml
+            v1.0.32
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            -Fix Netflix Info "Cast and More" clearlogo fallback text ghosting
+            -Fix Netflix Info "Cast and More" clearlogo inconsistency
+            v1.0.31
+            -Fix cast list "Staring" spelling mistake
+            v1.0.30
+            -Improve Skin Helper Service Widgets similar title
+            -Match font with widget label
+            -Remove prefix "to"
+            -Fix positioning
+            v1.0.29
+            -Improve LandscapePanel widget position
+            v1.0.28
+            -Improve Netflix Info "Cast and More" Seasons/Episodes/Next Up List views
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.27
+            -Fix Netflix Info "Cast and More" clearlogo fallback text inconsistency
+            v1.0.26
+            -Fix Netflix Info "Cast and More" clearlogo fallback text for episode info
+            v1.0.25
+            -Fix Netflix Info "Cast and More" clearlogo visibility on focus cast
+            -Fix Netflix Info "Cast and More" clearlogo texture inconsistencies
+            v1.0.24
+            -Add Netflix Info "Cast and More" dynamic container clearlogo
+            v1.0.23
+            -Re-add Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Force home window properties to only be used if widget is focused: avoids performance issues and quickly hitting OMDb rate limits
+            -Save initial widget container onload/onunload of DialogVideoInfo.xml
+            -More Info widget made visible only for movies
+            -More Info fallback label added if no RT information found
+            v1.0.22
+            -Remove Netflix Info "Cast and More" Ratings
+            -Revert: Fix Netflix Info "Cast and More" Ratings
+            -Re-commit: Adjust Widget_TMDB position
+            v1.0.21
+            -Fix Netflix Info "Cast and More" Ratings
+            -Add separate Ratings include for container lookups
+            -Force widget container for dynamic container Widget_ID in DialogVideoInfo.xml
+            -Adjust Widget_TMDB position
+            v1.0.20
+            -Fix small category widget position for Aura Home
+            v1.0.19
+            -Fix widget positioning being off-set after upwards scrolling
+            v1.0.18
+            -Repo release
+            v1.0.17
+            -Fix multi-widget spotlight studio logo visibility on widget spotlights
+            -Add "Kod" an Italian addon for movies and tv series to default search items
+            v1.0.16
+            -Fix studio logos for Widget Spotlights
+            v1.0.15
+            -Improve Netflix Episode List view
+            -Add clearlogo
+            -Adjust progress bar position and size
+            -Round corners for progress bar
+            -Adjust season and episode label position
+            v1.0.14
+            -Fix actor thumbnails on multi-widget spotlights
+            -Fix studio logos for multi-widget spotlights
+            v1.0.13
+            -Fix studio logos for Aura Home
+            v1.0.12
+            -Fix studio logo duplicate ID
+            v1.0.11
+            -Repo Release
+            -Reworked addon.xml
+            v1.0.10
+            -Fix star rating visibility on "See More" widget items
+            -addon.xml overhaul
+            v1.0.9
+            -Fix "small category widget" focus highlight for netflix home
+            v1.0.8
+            -Fix Studio logos for aura home
+            V1.0.7
+            -Massive Studio Logo and ratings overhall
+            -Add more default/built in search lists (Kato,Venom,Fen)
+            -updated instructions in readme
+            -added script.colorbox to imports
+            -added TMDBHelper 4.3.7 to imports
+            -Fix Skinshortcuts widgets with color code in label
+            -Fix RT usermeter visibility condition for Liked %
+            -changed Liked % to use RT usermeter rating
+            -Add Monochrome RT certified icon
+            -Add DialogVideoInfo.xml monochrome studio logo support 
+            -Fix star ratings for seasons in library views
+            -Fix episode duration visibility 
+            v1.0.6
+            -Fix RT icons in "More Info" section of "Cast and More"
+            -Improve custom Actor Window handling
+            -Fix missing ) in next aired and imdb_rating
+            -Fix "Cast and More" navigation initial info entry point
+            -Fix "Cast and More" actor navigation in MyVideoNav.xml
+            v1.0.5
+            -Massive overhal to use TMDBHelper for ratings and artwork instead of SkinHelper
+            -Massive overhal to navigation in Netflix info "cast and more"
+            -Massive overhal to Netflix info (fixed play , episodes , and other buttons)
+            v1.0.4
+            -Fix startup video hang bug
+            -Lots of fixs to various library views and the images used 
+            -Fix Dependency Hang on startup
+            -Removed old XBMC. references throughout skin
+            -Fix tmdbhelper widget netflix info "Episodes" button
+            -Fix hang on opening addon dependencies
+            -Fix Widget Aspect for skin shortcuts
+            -Fix addon versions menu
+            -removed unload conditions that are no longer needed for matrix
+            -Fixed unmatched ()
+            -Tweaked display of notification/busy dialog
+            -Fixed shade on volume controls 
+            -Temp fix error with "multi widget spotlight" style Removed actors for now
+            v1.0.3.1
+            -Status bar OSD now follows main skin Highlight color
+            -OSD time Elapsed Separators now match skin highlight color 2
+            -Removed disable mouse/touch on startup 
+            -Added Partial Spanish Translation
+            V1.0.2
+            -replaced old xbmc. commands with modern equivalents in power menus
+            -readme update
+            v1.0.1
+            -Fix addon info buttons not showing
+            -readme update
+            V1.0 Matrix Release
+            -Various changes so skin would install on Matrix
+        </news>
+    </extension>
+</addon><addon id="skin.xenon" name="[B][COLOR gold]Diggz Xenon[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="2.7">
+	<requires>
+		<import addon="xbmc.gui" version="5.18.0" />
+		<import addon="script.skinshortcuts" version="2.0.1" />
+		<import addon="script.xenon.casthelper" version="1.0.0" />
+	</requires>
+	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+		<summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+		<description lang="en">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+		<description lang="en_US">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+		<disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+		<disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon><addon id="skin.xenon2" version="429.99.5" name="[B][COLOR gold]Diggz Xenon 2[/COLOR][/B]  (Mid Power)" provider-name="SiLVO, Diggz">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="script.skinshortcuts" version="2.0.1" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Diggz Xenon</summary>
+		<description lang="en_GB">Completely redesigned to include modern functions, while retaining the classic Xenon feel.</description>
+		<platform>all</platform>
+
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon><addon id="skin.xenon4k" name="[B][COLOR gold]Xenon 4K[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="22.51">
+	<requires>
+		<import addon="xbmc.gui" version="5.18.0" />
+		<import addon="script.skinshortcuts" version="2.0.1" />
+		<import addon="script.xenon.casthelper" version="1.0.0" />
+	</requires>
+	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+		<summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
+		<description lang="en">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+		<description lang="en_US">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
+		<disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
+		<disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon><addon id="skin.xenonlive" name="[B][COLOR gold]Xenon Live TV And Sports[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="2.6">
 	<requires>
 		<import addon="xbmc.gui" version="5.18.0" />
 		<import addon="script.skinshortcuts" version="2.0.1" />
