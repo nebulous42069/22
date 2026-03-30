@@ -1,9 +1,15 @@
 [
   {
-    "name": "[B][COLOR gold]Diggz Xenon 4K[/COLOR][/B]",
+    "name": "[B][COLOR gold]Xenon Live TV And Sports [/COLOR][/B]",
     "description": "",
     "screenshot": "https://raw.githubusercontent.com/Buildtexts69/omegabuilds/refs/heads/main/X2/x4k.png",
-    "id": "skin.xenon4k"
+    "id": "skin.xenonlive"
+  },
+  {
+    "name": "[B][COLOR gold]Diggz Xenon[/COLOR][/B]",
+    "description": "",
+    "screenshot": "https://raw.githubusercontent.com/Buildtexts69/omegabuilds/refs/heads/main/X2/x4k.png",
+    "id": "skin.xenon"
   },
   {
     "name": "[B][COLOR gold]Diggz Xenon 2[/COLOR][/B]",

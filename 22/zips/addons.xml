@@ -55,6 +55,27 @@ Use this to quickly and easily organize your Favourites.
             <fanart>fanart.jpg</fanart>
      </assets>	
     </extension>
+</addon><addon id="plugin.audio.m3sr2019" name="MP3 Streams Echoed" version="2026.1.0" provider-name="Echostorm / Claude">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.routing" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <summary>MP3 Streams Echoed — music streaming for Kodi</summary>
+        <description>Browse and stream songs and albums. Browse by genre, search artists, albums or songs, save favourites, play or shuffle full albums, and stream tracks directly in Kodi.</description>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="plugin.audio.mixcloud" name="Mixcloud" version="420.3.0.4" provider-name="jackyNIX">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
@@ -1211,7 +1232,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 				<icon>icon.png</icon>
 		</assets>
     </extension>
-</addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="500.0.8" provider-name="Diggz">
+</addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="500.0.9" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>
