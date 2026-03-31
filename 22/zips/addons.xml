@@ -1243,7 +1243,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
     <platform>all</platform>
     <license>MIT</license>
   </extension>
-</addon><addon id="script.module.xenon" name="Xenon Skin Updater" version="430" provider-name="Zaxxon709">
+</addon><addon id="script.module.xenon" name="Xenon Skin Updater" version="530" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -1261,7 +1261,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 		<email />
 		<source />
 	</extension>
-</addon><addon id="script.module.xenonlive" name="Xenon Live Skin Fix" version="430" provider-name="Zaxxon709">
+</addon><addon id="script.module.xenonlive" name="Xenon Live Skin Fix" version="530" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
