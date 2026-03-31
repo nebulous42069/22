@@ -1232,7 +1232,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 				<icon>icon.png</icon>
 		</assets>
     </extension>
-</addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="500.0.9" provider-name="Diggz">
+</addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="501" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
   </requires>
