@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.autorunsxenon"
        name="Autoruns Xenon"
-       version="19"
+       version="20"
        provider-name="fight night, Jon Bovi">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
@@ -10,7 +10,6 @@
 		<import addon="inputstream.rtmp" />
         <import addon="visualization.waveform" />
 		<import addon="inputstream.adaptive" />
-		<import addon="inputstream.ffmpegdirect" /> 
 		<import addon="script.favourites" />
         <import addon="resource.images.studios.white" />
 		<import addon="script.module.jurialmunkey" version="0.2.11" />
