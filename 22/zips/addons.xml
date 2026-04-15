@@ -263,7 +263,7 @@ Use this to quickly and easily organize your Favourites.
 				<screenshot />
 		</assets>
 	</extension>
-</addon><addon id="plugin.program.pvr.setup" name="PVR/EPG Quick Setup" version="1.3.9" provider-name="Diggz">
+</addon><addon id="plugin.program.pvr.setup" name="PVR/EPG Quick Setup" version="1.4.0" provider-name="Diggz">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
