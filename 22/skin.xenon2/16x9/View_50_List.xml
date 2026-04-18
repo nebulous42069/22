@@ -2428,18 +2428,18 @@
 			<include>ViewAnimation</include>
 			<control type="group">
 				<left>100</left>
-				<top>-40</top>
+				<top>-68</top>
 				<control type="image">
 					<left>-1</left>
 					<top>178</top>
 					<width>1162</width>
-					<height>843</height>
+					<height>903</height>
 					<texture>contentpanel.png</texture>
 				</control>
 				<control type="panel" id="50">
-					<top>180</top>
+					<top>190</top>
 					<width>1150</width>
-					<height>840</height>
+					<height>880</height>
 					<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 					<onleft>SetFocus(9050)</onleft>
 					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>
@@ -2453,18 +2453,18 @@
 					<pagecontrol>95060</pagecontrol>
 					<scrolltime tween="quadratic" easing="out">200</scrolltime>
 					<visible>True + !System.AddonIsEnabled(script.skinvariables) | [$EXP[Exp_View_50] + System.AddonIsEnabled(script.skinvariables)]</visible>
-					<itemlayout height="60" width="1140" condition="!Container.Content(addons)">
+					<itemlayout height="80" width="1140" condition="!Container.Content(addons)">
 						<control type="image">
 							<left>0</left>
 							<top>0</top>
 							<width>1140</width>
-							<height>60</height>
+							<height>81</height>
 							<texture border="5">MenuItemNF.png</texture>
 						</control>					
 						<control type="label">
 							<left>30</left>
 							<width>1060</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<textcolor>grey2</textcolor>
 							<label>$INFO[ListItem.Label]</label>
@@ -2473,7 +2473,7 @@
 						<control type="label">
 							<left>30</left>
 							<width>1104</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<textcolor>grey2</textcolor>
 							<label>$INFO[ListItem.Label]</label>
@@ -2493,7 +2493,7 @@
 						<control type="label">
 							<left>5</left>
 							<width>1060</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<align>right</align>
 							<textcolor>grey2</textcolor>
@@ -2504,13 +2504,13 @@
 							<left>1076</left>
 							<control type="image">
 								<width>64</width>
-								<height>64</height>
+								<height>84</height>
 								<aspectratio>keep</aspectratio>
 								<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItemOverlay]</texture>
 							</control>
 							<control type="label">
 								<width>64</width>
-								<height>64</height>
+								<height>84</height>
 								<font>font12_title</font>
 								<align>center</align>
 								<textcolor>grey2</textcolor>
@@ -2518,11 +2518,11 @@
 							</control>
 						</control>
 					</itemlayout>
-					<focusedlayout height="60" width="140" condition="!Container.Content(addons)">
+					<focusedlayout height="80" width="140" condition="!Container.Content(addons)">
 						<control type="image">
 							<left>10</left>
 							<width>1150</width>
-							<height>60</height>
+							<height>81</height>
 							<texture border="5" colordiffuse="$VAR[ThemeLabelColor]">lf_classic/button/MenuItemFO.png</texture>
 							<visible>Control.HasFocus(50)</visible>
 							<include>VisibleFadeAnimation</include>
@@ -2530,7 +2530,7 @@
 						<control type="label">
 							<left>30</left>
 							<width>1060</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>!ListItem.IsFolder</visible>
@@ -2538,7 +2538,7 @@
 						<control type="label">
 							<left>30</left>
 							<width>1104</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<label>$INFO[ListItem.Label]</label>
 							<visible>ListItem.IsFolder</visible>
@@ -2556,7 +2556,7 @@
 						<control type="label">
 							<left>5</left>
 							<width>1060</width>
-							<height>60</height>
+							<height>80</height>
 							<font>font15</font>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
@@ -2632,9 +2632,9 @@
 				</control>
 				<control type="scrollbar" id="95060">
 					<left>1138</left>
-					<top>200</top>
+					<top>190</top>
 					<width>12</width>
-					<height>800</height>
+					<height>877</height>
 					<onup>95060</onup>
 					<ondown>95060</ondown>
 					<onleft>50</onleft>
