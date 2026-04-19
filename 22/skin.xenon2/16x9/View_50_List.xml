@@ -26,7 +26,13 @@
 					<height>840</height>
 					<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 					<onleft>SetFocus(9050)</onleft>
-					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(episodes) |  !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;tmdb=$INFO[ListItem.Property(tmdb_id)]&amp;tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;mediatype=$INFO[ListItem.MediaType]&amp;title=$INFO[ListItem.Title]&amp;tvshowtitle=$INFO[ListItem.TVShowTitle]&amp;year=$INFO[ListItem.Year])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.IMDBNumber)">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + !String.IsEmpty(ListItem.UniqueID(imdb))">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.UniqueID(imdb)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + String.IsEmpty(ListItem.UniqueID(imdb)) + !String.IsEmpty(ListItem.Property(tmdbshow_id))">
+					RunScript(script.trailer.bridge,?tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
 					<onright condition="Control.IsVisible(95060)">95060</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95061)">95061</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95063)">95063</onright>
@@ -1105,7 +1111,13 @@
 					<onup>95060</onup>
 					<ondown>95060</ondown>
 					<onleft>50</onleft>
-					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(episodes) |  !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>					
+					<onright condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;tmdb=$INFO[ListItem.Property(tmdb_id)]&amp;tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;mediatype=$INFO[ListItem.MediaType]&amp;title=$INFO[ListItem.Title]&amp;tvshowtitle=$INFO[ListItem.TVShowTitle]&amp;year=$INFO[ListItem.Year])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.IMDBNumber)">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + !String.IsEmpty(ListItem.UniqueID(imdb))">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.UniqueID(imdb)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + String.IsEmpty(ListItem.UniqueID(imdb)) + !String.IsEmpty(ListItem.Property(tmdbshow_id))">
+					RunScript(script.trailer.bridge,?tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>					
 					<texturesliderbackground>contentpanel.png</texturesliderbackground>
 					<texturesliderbar>colors/white25.png</texturesliderbar>
 					<texturesliderbarfocus colordiffuse="$VAR[ThemeLabelColor]">colors/white.png</texturesliderbarfocus>
@@ -1422,7 +1434,14 @@
 					<height>840</height>
 					<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 					<onleft>SetFocus(9050)</onleft>
-					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(episodes) |  !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;tmdb=$INFO[ListItem.Property(tmdb_id)]&amp;tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;mediatype=$INFO[ListItem.MediaType]&amp;title=$INFO[ListItem.Title]&amp;tvshowtitle=$INFO[ListItem.TVShowTitle]&amp;year=$INFO[ListItem.Year])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.IMDBNumber)">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + !String.IsEmpty(ListItem.UniqueID(imdb))">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.UniqueID(imdb)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + String.IsEmpty(ListItem.UniqueID(imdb)) + !String.IsEmpty(ListItem.Property(tmdbshow_id))">
+					RunScript(script.trailer.bridge,?tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>					
+
 					<onright condition="Control.IsVisible(95060)">95060</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95061)">95061</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95063)">95063</onright>
@@ -1804,7 +1823,14 @@
 					<ondown>95060</ondown>
 					<onleft>50</onleft>
 					<onright condition="!Control.IsVisible(615)">4400</onright>
-					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(episodes) |  !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>					
+					<onright condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;tmdb=$INFO[ListItem.Property(tmdb_id)]&amp;tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;mediatype=$INFO[ListItem.MediaType]&amp;title=$INFO[ListItem.Title]&amp;tvshowtitle=$INFO[ListItem.TVShowTitle]&amp;year=$INFO[ListItem.Year])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.IMDBNumber)">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + !String.IsEmpty(ListItem.UniqueID(imdb))">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.UniqueID(imdb)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + String.IsEmpty(ListItem.UniqueID(imdb)) + !String.IsEmpty(ListItem.Property(tmdbshow_id))">
+					RunScript(script.trailer.bridge,?tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>					
+					
 					<onright condition="Control.IsVisible(615)">615</onright>
 					<texturesliderbackground>contentpanel.png</texturesliderbackground>
 					<texturesliderbar>colors/white25.png</texturesliderbar>
@@ -2442,7 +2468,13 @@
 					<height>880</height>
 					<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 					<onleft>SetFocus(9050)</onleft>
-					<onright condition="Container.Content(movies) | Container.Content(tvshows) | !Container.Content(seasons) | !Container.Content(musicvideos) | !Container.Content(files) | !Container.Content(addons) | !Container.Content() | !String.IsEmpty(ListItem.Trailer)">PlayMedia("$INFO[ListItem.Trailer]")</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,movie)">RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;tmdb=$INFO[ListItem.Property(tmdb_id)]&amp;tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;mediatype=$INFO[ListItem.MediaType]&amp;title=$INFO[ListItem.Title]&amp;tvshowtitle=$INFO[ListItem.TVShowTitle]&amp;year=$INFO[ListItem.Year])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + !String.IsEmpty(ListItem.IMDBNumber)">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.IMDBNumber]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + !String.IsEmpty(ListItem.UniqueID(imdb))">
+					RunScript(script.trailer.bridge,?imdb=$INFO[ListItem.UniqueID(imdb)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>
+					<onright condition="String.IsEqual(ListItem.DBType,tvshow) + String.IsEmpty(ListItem.IMDBNumber) + String.IsEmpty(ListItem.UniqueID(imdb)) + !String.IsEmpty(ListItem.Property(tmdbshow_id))">
+					RunScript(script.trailer.bridge,?tmdbshow=$INFO[ListItem.Property(tmdbshow_id)]&amp;dbtype=$INFO[ListItem.DBType]&amp;title=$INFO[ListItem.TVShowTitle])</onright>					
 					<onright condition="Control.IsVisible(95060)">95060</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95061)">95061</onright>
 					<onright condition="!Control.IsVisible(95060) + Control.IsVisible(95063)">95063</onright>

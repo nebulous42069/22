@@ -1395,10 +1395,10 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 - Fix possible exception that may occur if video thumbnails fail to update
 - Fix unsubscribing from My Subscriptions
 - Fix folders for channel shorts and live stream</news></extension>
-</addon><addon id="plugin.video.yt.kiosk" name="YouTube Kiosk" version="4.9.22" provider-name="Diggz">
+</addon><addon id="plugin.video.yt.kiosk" name="YouTube Kiosk" version="4.9.23" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
-	<import addon="plugin.video.youtubek" version="7.2.0.3" />
+	<import addon="plugin.video.youtube" version="7.2.0.3" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -2735,7 +2735,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="skin.xenon2" version="429.99.7" name="[B][COLOR gold]Diggz Xenon 2[/COLOR][/B]  (Mid Power)" provider-name="SiLVO, Diggz">
+</addon><addon id="skin.xenon2" version="429.99.8" name="[B][COLOR gold]Diggz Xenon 2[/COLOR][/B]  (Mid Power)" provider-name="SiLVO, Diggz">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.skinshortcuts" version="2.0.1" />
