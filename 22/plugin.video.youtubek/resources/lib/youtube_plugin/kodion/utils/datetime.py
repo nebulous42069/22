@@ -2,7 +2,7 @@
 """
 
     Copyright (C) 2014-2016 bromix (plugin.video.youtubek)
-    Copyright (C) 2016-2018 plugin.video.youtubek
+    Copyright (C) 2016-2025 plugin.video.youtubek
 
     SPDX-License-Identifier: GPL-2.0-only
     See LICENSES/GPL-2.0-only for more information.
@@ -14,6 +14,7 @@ from datetime import date, datetime, time as dt_time, timedelta
 from importlib import import_module
 from re import compile as re_compile
 from sys import modules
+from time import gmtime, strftime
 
 from ..exceptions import KodionException
 
@@ -44,9 +45,11 @@ __RE_MATCH_ABBREVIATED__ = re_compile(
 )
 
 __INTERNAL_CONSTANTS__ = {
-    'epoch_dt': (
-        datetime.fromtimestamp(0, tz=timezone.utc) if timezone
-        else datetime.fromtimestamp(0)
+    'epoch_dt': datetime.fromtimestamp(0),
+    'epoch_dt_utc': (
+        datetime.fromtimestamp(0, tz=timezone.utc)
+        if timezone else
+        None
     ),
     'local_offset': None,
     'Jan': 1,
@@ -70,7 +73,7 @@ now = datetime.now
 fromtimestamp = datetime.fromtimestamp
 
 
-def parse(datetime_string):
+def parse_to_dt(datetime_string):
     if not datetime_string:
         return None
 
@@ -139,7 +142,7 @@ def parse(datetime_string):
             match['tzinfo'] = timezone.utc
         return datetime(**match)
 
-    raise KodionException('Could not parse |{datetime}| as ISO 8601'
+    raise KodionException('Could not parse {datetime!r} as ISO 8601'
                           .format(datetime=datetime_string))
 
 
@@ -285,14 +288,33 @@ def strptime(datetime_str, fmt=None, _strptime=modules['_strptime']):
             datetime_str = time_part
 
     if timezone:
-        return _strptime._strptime_datetime(datetime, datetime_str, fmt)
+        tt, fraction, gmtoff_fraction = _strptime._strptime(datetime_str, fmt)
+        tzname, gmtoff = tt[-2:]
+        args = tt[:6] + (fraction,)
+        if gmtoff is None:
+            return datetime(*args)
+        else:
+            tzdelta = timedelta(seconds=gmtoff, microseconds=gmtoff_fraction)
+            if tzname:
+                tz = timezone(tzdelta, tzname)
+            else:
+                tz = timezone(tzdelta)
+            return datetime(*args, tzinfo=tz)
     return datetime(*(_strptime._strptime(datetime_str, fmt)[0][0:6]))
 
 
 def since_epoch(dt_object=None):
     if dt_object is None:
         dt_object = now(tz=timezone.utc) if timezone else datetime.utcnow()
-    return (dt_object - __INTERNAL_CONSTANTS__['epoch_dt']).total_seconds()
+    if dt_object.tzinfo:
+        if timezone:
+            epoch = __INTERNAL_CONSTANTS__['epoch_dt_utc']
+        else:
+            dt_object = dt_object.replace(tzinfo=None)
+            epoch = __INTERNAL_CONSTANTS__['epoch_dt']
+    else:
+        epoch = __INTERNAL_CONSTANTS__['epoch_dt']
+    return (dt_object - epoch).total_seconds()
 
 
 def yt_datetime_offset(**kwargs):
@@ -302,3 +324,33 @@ def yt_datetime_offset(**kwargs):
         _now = datetime.utcnow()
 
     return (_now - timedelta(**kwargs)).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def imf_fixdate(seconds,
+                _days=(
+                        'Mon',
+                        'Tue',
+                        'Wed',
+                        'Thu',
+                        'Fri',
+                        'Sat',
+                        'Sun',
+                ),
+                _months=(
+                        None,
+                        'Jan',
+                        'Feb',
+                        'Mar',
+                        'Apr',
+                        'May',
+                        'Jun',
+                        'Jul',
+                        'Aug',
+                        'Sep',
+                        'Oct',
+                        'Nov',
+                        'Dec',
+                )):
+    _time = gmtime(seconds)
+    out = strftime('{weekday}, %d {month} %Y %H:%M:%S GMT', _time)
+    return out.format(weekday=_days[_time.tm_wday], month=_months[_time.tm_mon])
