@@ -1256,6 +1256,26 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 		<fanart>fanart.jpg</fanart>
   </assets>
   </extension>
+</addon><addon id="plugin.video.xstream-player" name="XStream Player" version="2.1.3" provider-name="XStream Player">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="script.module.requests" version="2.22.0" />
+        <import addon="pvr.iptvsimple" version="21.4.0" />
+        <import addon="service.upnext" version="1.1.0" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">XStream Player - Organised M3U &amp; Xtream player</summary>
+        <description lang="en_GB">A clean M3U &amp; Xtream player with proper sorting: PVR, Live TV, Movies, Series and Replay, plus EPG support.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://github.com/Pesicp/XStream-Player</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon><addon id="plugin.video.youtubek" name="YouTube For YT Kiosk" version="420.7.4.1.1" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -1496,6 +1516,43 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
     <platform>all</platform>
     <license>MIT</license>
   </extension>
+</addon><addon id="script.elementum.burst" name="Elementum [COLOR FFFF6B00]Burst[/COLOR]" version="1.0.0.98" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="plugin.video.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.future" version="0.16.0.4" />
+        <import addon="script.module.pycryptodome" optional="true" />
+    </requires>
+    <extension point="xbmc.python.script" library="burst.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum torrents provider</summary>
+        <summary lang="hr">Elementum torrent pružatelji usluga</summary>
+        <summary lang="es">Proveedor de torrents Elementum</summary>
+        <summary lang="ru">Поисковое дополнение Elementum</summary>
+        <summary lang="sv">Elementum-torrentleverantör</summary>
+        <description lang="en">Elementum Burst is a lean and mean multi-provider for Elementum.</description>
+        <description lang="hr">Elementum Burst je višestruki pružatelj usluga za Elementum.</description>
+        <description lang="es">Elementum Burst es un multi-proveedor simple y eficiente para Elementum.</description>
+        <description lang="ru">Elementum Burst это поисковое дополнение, для поиска торрентов для Elementum.</description>
+        <description lang="sv">Elementum Burst är en enkel och effektiv multi-leverantör för Elementum.</description>
+        <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa bilo kojim izvorom sadržaja.</disclaimer>
+        <disclaimer lang="es">El autor no aloja ni distribuye ninguno de los contenidos mostrados por este complemento. El autor no tiene ninguna afiliación con los proveedores de contenido.</disclaimer>
+        <disclaimer lang="ru">Автор не несёт ответственности за использование дополнения, не распространяет данные, выводимые дополнением.</disclaimer>
+        <disclaimer lang="sv">Skaparen är inte värd eller distribuerar något av innehållet som visas av detta tillägg. Skaparen har ingen anslutning till innehållsleverantörerna.</disclaimer>
+        <license>WTFPL, Version 2, December 2004. See included LICENSE.</license>
+        <website>https://elementum.surge.sh</website>
+        <source>https://github.com/elgatito/script.elementum.burst</source>
+        <forum>TODO</forum>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="script.module.xenon" name="Xenon Skin Updater" version="530" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -2731,29 +2788,6 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 		<description lang="en_GB">Completely redesigned to include modern functions, while retaining the classic Xenon feel.</description>
 		<platform>all</platform>
 
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon><addon id="skin.xenon4k" name="[B][COLOR gold]Xenon 4K[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano, Diggz" version="22.51">
-	<requires>
-		<import addon="xbmc.gui" version="5.18.0" />
-		<import addon="script.skinshortcuts" version="2.0.1" />
-		<import addon="script.xenon.casthelper" version="1.0.0" />
-	</requires>
-	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-		<summary lang="en_US">eXtended MOD of Confluence skin originally by Jezz_X and CCM by Mudislander.</summary>
-		<description lang="en">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-		<description lang="en_US">Xenon is a MOD of Confluence to enable a greater degree of user customisation to the default skin (based by Mudislander's CCM).</description>
-		<disclaimer lang="en">You break it - You get to keep the pieces</disclaimer>
-		<disclaimer lang="en_US">You break it - You get to keep the pieces</disclaimer>
-		<platform>all</platform>
-		<license>GNU General Public License version 2</license>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
