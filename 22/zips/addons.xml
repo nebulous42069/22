@@ -2651,7 +2651,7 @@ v0.2.3
 			<fanart>resources/fanart.jpg</fanart>			
 		</assets>
 	</extension>
-</addon><addon id="skin.diggzkids" version="5.6" name="[B][COLOR gold]Diggz Kidz[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano">
+</addon><addon id="skin.diggzkids" version="5.7" name="[B][COLOR gold]Diggz Kidz[/COLOR][/B]  (Mid Power)" provider-name="Helly,bsoriano">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
 	<import addon="script.favourites" version="8.1.2" />
@@ -2660,7 +2660,7 @@ v0.2.3
 	<import addon="script.skinshortcuts" version="2.0.1" />
 	<import addon="script.xenon.casthelper" version="1.0.0" />	
   </requires>
-  <extension point="xbmc.gui.skin" debugging="true" effectslowdown=".5">
+  <extension point="xbmc.gui.skin" debugging="false" effectslowdown=".5">
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
   </extension>
   <extension point="xbmc.addon.metadata">
