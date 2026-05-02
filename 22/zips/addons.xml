@@ -1953,7 +1953,7 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 		<description lang="en" />
 		<genre>mix</genre>
 	</extension>
-</addon><addon id="resource.font.robotocjksc" name="Roboto CJKSC" version="0.0.2" provider-name="jurialmunkey">
+</addon><addon id="resource.font.robotocjksc" name="Roboto CJKSC" version="0.0.3" provider-name="jurialmunkey">
     <requires>
         <import addon="kodi.resource" version="1.0.0" />
     </requires>
@@ -1975,6 +1975,16 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon><addon id="resource.images.skinbackgrounds.diggzkidz" name="Skin Backgrounds - Diggz Kidz" version="0.0.1" provider-name="Helly">
+	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Skin Backgrounds Pack - Xenon Design</summary>
+		<description lang="en">Skin Backgrounds Pack - Xenon Design</description>
+		<platform>all</platform>
+	</extension>
 </addon><addon id="script.autorunsxenon" name="Autoruns Xenon" version="20" provider-name="fight night, Jon Bovi">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
