@@ -1,5 +1,5 @@
 ﻿# Kodi Media Center language file
-# Addon Name: Bingie
+# Addon Name: DiggzFlix
 # Addon id: skin.diggzflix2
 # Addon Provider: matke
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2025-11-11 15:16-05:00\n"
-"Last-Translator: Bingie Skin Team\n"
+"Last-Translator: DiggzFlix Skin Team\n"
 "Language-Team: Spanish (Argentina)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Language: es_AR\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# BINGIE Strings
+# DiggzFlix Strings
 
 #. first letter of 'Season'
 msgctxt "#31000"
@@ -86,8 +86,8 @@ msgid "Button text color"
 msgstr "Color del texto del botón"
 
 msgctxt "#31016"
-msgid "Bingie playback & OSD"
-msgstr "Reproducción y OSD de Bingie"
+msgid "DiggzFlix playback & OSD"
+msgstr "Reproducción y OSD de DiggzFlix"
 
 msgctxt "#31017"
 msgid "Use alternative video OSD layout"
@@ -95,7 +95,7 @@ msgstr "Usar diseño alternativo de OSD de video"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31018"
-msgid "Bingie Landscape"
+msgid "DiggzFlix Landscape"
 msgstr ""
 
 msgctxt "#31019"
@@ -132,7 +132,7 @@ msgstr "Panel de color MPAA"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31027"
-msgid "Bingie Poster"
+msgid "DiggzFlix Poster"
 msgstr ""
 
 msgctxt "#31028"
@@ -188,8 +188,8 @@ msgid "Now playing"
 msgstr "Reproduciendo ahora"
 
 msgctxt "#31041"
-msgid "Bingie splash image"
-msgstr "Imagen de bienvenida de Bingie"
+msgid "DiggzFlix splash image"
+msgstr "Imagen de bienvenida de DiggzFlix"
 
 msgctxt "#31042"
 msgid "Enable studio logo"
@@ -406,7 +406,7 @@ msgstr "Wikipedia"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31095"
-msgid "Bingie Seasons"
+msgid "DiggzFlix Seasons"
 msgstr ""
 
 msgctxt "#31096"
@@ -516,7 +516,7 @@ msgstr "para ti"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31122"
-msgid "Bingie Square"
+msgid "DiggzFlix Square"
 msgstr ""
 
 msgctxt "#31123"
@@ -637,8 +637,8 @@ msgid "Background overlay color"
 msgstr "Color de superposición de fondo"
 
 msgctxt "#31152"
-msgid "Bingie animation"
-msgstr "Animación de Bingie"
+msgid "DiggzFlix animation"
+msgstr "Animación de DiggzFlix"
 
 msgctxt "#31153"
 msgid "Trakt"
@@ -669,8 +669,8 @@ msgid "Documentaries"
 msgstr "Documentales"
 
 msgctxt "#31160"
-msgid "Exit Bingie"
-msgstr "Salir de Bingie"
+msgid "Exit DiggzFlix"
+msgstr "Salir de DiggzFlix"
 
 msgctxt "#31161"
 msgid "Watch Season 1 Now"
@@ -717,8 +717,8 @@ msgid "If you see weird behavior on your home menu or you just want to start fre
 msgstr "Si ves un comportamiento extraño en tu menú de inicio o simplemente quieres empezar de nuevo y aprovechar al máximo esta apariencia, puedes restablecer las estructuras del menú a la configuración predeterminada de la apariencia con el siguiente botón."
 
 msgctxt "#31172"
-msgid "Who's watching Bingie?"
-msgstr "¿Quién está viendo Bingie?"
+msgid "Who's watching DiggzFlix?"
+msgstr "¿Quién está viendo DiggzFlix?"
 
 msgctxt "#31173"
 msgid "Auto play trailers in home & hubs"
@@ -1078,8 +1078,8 @@ msgid "There are no matches for your search."
 msgstr "No hay coincidencias para tu búsqueda."
 
 msgctxt "#31262"
-msgid "In the Bingie skin, the content is organized into dedicated hubs. This layout makes it easy to navigate between categories and find what you’re looking for. Just like on the home screen, you have the ability to add new widgets, remove existing ones, and fully customize their appearance and behavior."
-msgstr "En la apariencia Bingie, el contenido se organiza en centros dedicados. Este diseño facilita la navegación entre categorías y encontrar lo que buscas. Al igual que en la pantalla de inicio, tienes la capacidad de agregar nuevos widgets, eliminar los existentes y personalizar completamente su apariencia y comportamiento."
+msgid "In the DiggzFlix skin, the content is organized into dedicated hubs. This layout makes it easy to navigate between categories and find what you’re looking for. Just like on the home screen, you have the ability to add new widgets, remove existing ones, and fully customize their appearance and behavior."
+msgstr "En la apariencia DiggzFlix, el contenido se organiza en centros dedicados. Este diseño facilita la navegación entre categorías y encontrar lo que buscas. Al igual que en la pantalla de inicio, tienes la capacidad de agregar nuevos widgets, eliminar los existentes y personalizar completamente su apariencia y comportamiento."
 
 msgctxt "#31263"
 msgid "Recommended by TMDb"
@@ -1130,8 +1130,8 @@ msgid "Reset skin to default settings"
 msgstr "Restablecer la apariencia a la configuración predeterminada"
 
 msgctxt "#31275"
-msgid "Disable Bingie logo on home"
-msgstr "Desactivar logo de Bingie en inicio"
+msgid "Disable DiggzFlix logo on home"
+msgstr "Desactivar logo de DiggzFlix en inicio"
 
 msgctxt "#31276"
 msgid "Auto hide menu"
@@ -1166,8 +1166,8 @@ msgid "Prefer white icon on Top 250 sublabel"
 msgstr "Preferir icono blanco en subetiqueta Top 250"
 
 msgctxt "#31284"
-msgid "Enable Top 250 sublabel on home and Bingie views"
-msgstr "Habilitar subetiqueta Top 250 en inicio y vistas Bingie"
+msgid "Enable Top 250 sublabel on home and DiggzFlix views"
+msgstr "Habilitar subetiqueta Top 250 en inicio y vistas DiggzFlix"
 
 msgctxt "#31285"
 msgid "Overview"
@@ -1303,7 +1303,7 @@ msgstr "Desactivar colecciones"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31318"
-msgid "Bingie Episodes"
+msgid "DiggzFlix Episodes"
 msgstr ""
 
 msgctxt "#31319"
@@ -1315,8 +1315,8 @@ msgid "Enable Top 250 sublabel on video info"
 msgstr "Habilitar subetiqueta Top 250 en información de video"
 
 msgctxt "#31321"
-msgid "Bingie views"
-msgstr "Vistas de Bingie"
+msgid "DiggzFlix views"
+msgstr "Vistas de DiggzFlix"
 
 msgctxt "#31322"
 msgid "Enable Top 250 sublabel on spotlight"
@@ -1339,8 +1339,8 @@ msgid "Trakt Popular Movies"
 msgstr "Películas populares en Trakt"
 
 msgctxt "#31327"
-msgid "Clearlogo/title position (except Bingie views)"
-msgstr "Posición de clearlogo/título (excepto vistas Bingie)"
+msgid "Clearlogo/title position (except DiggzFlix views)"
+msgstr "Posición de clearlogo/título (excepto vistas DiggzFlix)"
 
 msgctxt "#31328"
 msgid "Trakt Trending TV Shows"
@@ -1576,8 +1576,8 @@ msgid "TV Action & Adventure"
 msgstr "Acción y aventura de TV"
 
 msgctxt "#31387"
-msgid "Welcome to Bingie"
-msgstr "Bienvenido a Bingie"
+msgid "Welcome to DiggzFlix"
+msgstr "Bienvenido a DiggzFlix"
 
 msgctxt "#31388"
 msgid ""
@@ -1616,24 +1616,24 @@ msgid "Lyrics colors"
 msgstr "Colores de letras"
 
 msgctxt "#31395"
-msgid "With Bingie you can have all of your Kodi and library content in one place, through the use of widgets.[CR][CR]"
+msgid "With DiggzFlix you can have all of your Kodi and library content in one place, through the use of widgets.[CR][CR]"
 "Home widgets and hubs can be configured from:[CR]"
 "[COLOR white]    - Skin settings -> Configure shortcuts[CR][CR]"
 "The skin is pre-packed with widgets for movies & TV shows.[CR]"
 "If you haven't added files to your video library yet, now is a good time.[CR]"
-"Otherwise, you will start with TMDb Bingie Helper widgets.[/COLOR][CR][CR]"
-"[COLOR ff41b957]TMDb Bingie Helper doesn't play any content by itself. To watch movies or TV shows, you need a separate plugin for that. If you want, you can then configure TMDb Bingie Helper to use it for playing content:[CR]"
-"    - Skin settings -> Supported addons -> TMDb Bingie Helper -> Players[CR]"
+"Otherwise, you will start with TMDb DiggzFlix Helper widgets.[/COLOR][CR][CR]"
+"[COLOR ff41b957]TMDb DiggzFlix Helper doesn't play any content by itself. To watch movies or TV shows, you need a separate plugin for that. If you want, you can then configure TMDb DiggzFlix Helper to use it for playing content:[CR]"
+"    - Skin settings -> Supported addons -> TMDb DiggzFlix Helper -> Players[CR]"
 "You can always replace the default skin widgets with your own.[/COLOR]"
-msgstr "Con Bingie puedes tener todo tu contenido de Kodi y biblioteca en un solo lugar, mediante el uso de widgets.[CR][CR]Los widgets y centros del inicio se pueden configurar desde:[CR][COLOR white]    - Configuración de apariencia -> Configurar accesos directos[CR][CR]La apariencia viene preempaquetada con widgets para películas y programas de TV.[CR]Si aún no has agregado archivos a tu biblioteca de video, ¡ahora es un buen momento![CR]De lo contrario, estarías comenzando con widgets de TMDb Bingie Helper.[/COLOR][CR][CR][COLOR ff41b957]Los widgets de TMDb Bingie Helper no reproducen contenido. Necesitas un complemento separado para eso. Luego puedes configurar TMDb Bingie Helper para usarlo en la reproducción:[CR]    - Configuración de apariencia -> Complementos compatibles -> TMDb Bingie Helper -> Reproductores[CR]Siempre puedes reemplazar los widgets de apariencia predeterminados con los tuyos.[/COLOR]"
+msgstr "Con DiggzFlix puedes tener todo tu contenido de Kodi y biblioteca en un solo lugar, mediante el uso de widgets.[CR][CR]Los widgets y centros del inicio se pueden configurar desde:[CR][COLOR white]    - Configuración de apariencia -> Configurar accesos directos[CR][CR]La apariencia viene preempaquetada con widgets para películas y programas de TV.[CR]Si aún no has agregado archivos a tu biblioteca de video, ¡ahora es un buen momento![CR]De lo contrario, estarías comenzando con widgets de TMDb DiggzFlix Helper.[/COLOR][CR][CR][COLOR ff41b957]Los widgets de TMDb DiggzFlix Helper no reproducen contenido. Necesitas un complemento separado para eso. Luego puedes configurar TMDb DiggzFlix Helper para usarlo en la reproducción:[CR]    - Configuración de apariencia -> Complementos compatibles -> TMDb DiggzFlix Helper -> Reproductores[CR]Siempre puedes reemplazar los widgets de apariencia predeterminados con los tuyos.[/COLOR]"
 
 msgctxt "#31396"
 msgid "Add videos to library"
 msgstr "Agregar videos a la biblioteca"
 
 msgctxt "#31397"
-msgid "Get started with Bingie"
-msgstr "Comenzar con Bingie"
+msgid "Get started with DiggzFlix"
+msgstr "Comenzar con DiggzFlix"
 
 msgctxt "#31398"
 msgid "Thriller"
@@ -1672,8 +1672,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Configure display and audio · En
 msgstr "[B]CONFIGURAR AJUSTES DEL SISTEMA[/B][CR][CR]Configurar pantalla y audio · Habilitar depuración"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup Bingie · Configure home screen and hubs"
-msgstr "[B]CONFIGURAR AJUSTES DE APARIENCIA[/B][CR][CR]Configurar Bingie · Configurar pantalla de inicio y centros"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup DiggzFlix · Configure home screen and hubs"
+msgstr "[B]CONFIGURAR AJUSTES DE APARIENCIA[/B][CR][CR]Configurar DiggzFlix · Configurar pantalla de inicio y centros"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Browse, install and manage add-ons"
@@ -1845,8 +1845,8 @@ msgid "Fantasy"
 msgstr "Fantasía"
 
 msgctxt "#31447"
-msgid "Bingie landscape tag sublabel"
-msgstr "Subetiqueta de etiqueta de paisaje de Bingie"
+msgid "DiggzFlix landscape tag sublabel"
+msgstr "Subetiqueta de etiqueta de paisaje de DiggzFlix"
 
 msgctxt "#31448"
 msgid "Crime"
@@ -1914,8 +1914,8 @@ msgid "Select a color theme"
 msgstr "Seleccionar un tema de color"
 
 msgctxt "#31464"
-msgid "Bingie skin allows you to customize almost every color manually. You can save your customizations as a color theme or reset everything to default."
-msgstr "La apariencia Bingie te permite personalizar casi todos los colores manualmente. Puedes guardar tus personalizaciones como un tema de color o restablecer todo a los valores predeterminados."
+msgid "DiggzFlix skin allows you to customize almost every color manually. You can save your customizations as a color theme or reset everything to default."
+msgstr "La apariencia DiggzFlix te permite personalizar casi todos los colores manualmente. Puedes guardar tus personalizaciones como un tema de color o restablecer todo a los valores predeterminados."
 
 msgctxt "#31465"
 msgid "Customize submenu"
@@ -2170,8 +2170,8 @@ msgid "Premiered in"
 msgstr "Estrenada en"
 
 msgctxt "#31528"
-msgid "Play next episode (TMDb Bingie Helper)"
-msgstr "Reproducir siguiente episodio (TMDb Bingie Helper)"
+msgid "Play next episode (TMDb DiggzFlix Helper)"
+msgstr "Reproducir siguiente episodio (TMDb DiggzFlix Helper)"
 
 msgctxt "#31529"
 msgid "Posters"
@@ -2250,8 +2250,8 @@ msgid "OSD progress bar border color"
 msgstr "Color del borde de la barra de progreso OSD"
 
 msgctxt "#31548"
-msgid "Bingie Top 250 icon color"
-msgstr "Color de icono Top 250 de Bingie"
+msgid "DiggzFlix Top 250 icon color"
+msgstr "Color de icono Top 250 de DiggzFlix"
 
 msgctxt "#31549"
 msgid "Play next episode (local library)"

@@ -1,5 +1,5 @@
 # Kodi Media Center language file
-# Addon Name: Bingie
+# Addon Name: DiggzFlix
 # Addon id: skin.diggzflix2
 # Addon Provider: matke
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-# BINGIE Strings
+# DiggzFlix Strings
 #. 'Season' 的首字母
 msgctxt "#31000"
 msgid "S"
@@ -85,8 +85,8 @@ msgid "Button text color"
 msgstr "按钮文字颜色"
 
 msgctxt "#31016"
-msgid "Bingie playback & OSD"
-msgstr "Bingie 播放与屏幕显示"
+msgid "DiggzFlix playback & OSD"
+msgstr "DiggzFlix 播放与屏幕显示"
 
 msgctxt "#31017"
 msgid "Use alternative video OSD layout"
@@ -94,7 +94,7 @@ msgstr "使用替代视频屏幕显示布局"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31018"
-msgid "Bingie Landscape"
+msgid "DiggzFlix Landscape"
 msgstr ""
 
 msgctxt "#31019"
@@ -131,7 +131,7 @@ msgstr "MPAA 分级颜色面板"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31027"
-msgid "Bingie Poster"
+msgid "DiggzFlix Poster"
 msgstr ""
 
 msgctxt "#31028"
@@ -187,8 +187,8 @@ msgid "Now playing"
 msgstr "正在播放"
 
 msgctxt "#31041"
-msgid "Bingie splash image"
-msgstr "Bingie 启动画面"
+msgid "DiggzFlix splash image"
+msgstr "DiggzFlix 启动画面"
 
 msgctxt "#31042"
 msgid "Enable studio logo"
@@ -405,7 +405,7 @@ msgstr "维基百科"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31095"
-msgid "Bingie Seasons"
+msgid "DiggzFlix Seasons"
 msgstr ""
 
 msgctxt "#31096"
@@ -515,7 +515,7 @@ msgstr "为你推荐"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31122"
-msgid "Bingie Square"
+msgid "DiggzFlix Square"
 msgstr ""
 
 msgctxt "#31123"
@@ -636,8 +636,8 @@ msgid "Background overlay color"
 msgstr "背景叠加层颜色"
 
 msgctxt "#31152"
-msgid "Bingie animation"
-msgstr "Bingie 动画"
+msgid "DiggzFlix animation"
+msgstr "DiggzFlix 动画"
 
 msgctxt "#31153"
 msgid "Trakt"
@@ -668,8 +668,8 @@ msgid "Documentaries"
 msgstr "纪录片"
 
 msgctxt "#31160"
-msgid "Exit Bingie"
-msgstr "退出 Bingie"
+msgid "Exit DiggzFlix"
+msgstr "退出 DiggzFlix"
 
 msgctxt "#31161"
 msgid "Watch Season 1 Now"
@@ -716,8 +716,8 @@ msgid "If you see weird behavior on your home menu or you just want to start fre
 msgstr "如果你的主界面菜单出现异常现象，或你想重新开始并充分发挥该皮肤的功能，可通过下方按钮将菜单结构重置为皮肤默认设置。"
 
 msgctxt "#31172"
-msgid "Who's watching Bingie?"
-msgstr "谁在使用 Bingie？"
+msgid "Who's watching DiggzFlix?"
+msgstr "谁在使用 DiggzFlix？"
 
 msgctxt "#31173"
 msgid "Auto play trailers in home & hubs"
@@ -1077,8 +1077,8 @@ msgid "There are no matches for your search."
 msgstr "未找到与你的搜索匹配的结果。"
 
 msgctxt "#31262"
-msgid "In the Bingie skin, the content is organized into dedicated hubs. This layout makes it easy to navigate between categories and find what you’re looking for. Just like on the home screen, you have the ability to add new widgets, remove existing ones, and fully customize their appearance and behavior."
-msgstr "在 Bingie 皮肤中，内容被组织到专属分类聚合中心。这种布局便于在不同分类间导航，快速找到所需内容。与主屏幕一样，你可以添加新小组件、移除现有小组件，并完全自定义它们的外观和行为。"
+msgid "In the DiggzFlix skin, the content is organized into dedicated hubs. This layout makes it easy to navigate between categories and find what you’re looking for. Just like on the home screen, you have the ability to add new widgets, remove existing ones, and fully customize their appearance and behavior."
+msgstr "在 DiggzFlix 皮肤中，内容被组织到专属分类聚合中心。这种布局便于在不同分类间导航，快速找到所需内容。与主屏幕一样，你可以添加新小组件、移除现有小组件，并完全自定义它们的外观和行为。"
 
 msgctxt "#31263"
 msgid "Recommended by TMDb"
@@ -1129,8 +1129,8 @@ msgid "Reset skin to default settings"
 msgstr "重置皮肤为默认设置"
 
 msgctxt "#31275"
-msgid "Disable Bingie logo on home"
-msgstr "在主界面禁用 Bingie 徽标"
+msgid "Disable DiggzFlix logo on home"
+msgstr "在主界面禁用 DiggzFlix 徽标"
 
 msgctxt "#31276"
 msgid "Auto hide menu"
@@ -1165,8 +1165,8 @@ msgid "Prefer white icon on Top 250 sublabel"
 msgstr "Top 250 子标签优先使用白色图标"
 
 msgctxt "#31284"
-msgid "Enable Top 250 sublabel on home and Bingie views"
-msgstr "在主界面和 Bingie 视图启用 Top 250 子标签"
+msgid "Enable Top 250 sublabel on home and DiggzFlix views"
+msgstr "在主界面和 DiggzFlix 视图启用 Top 250 子标签"
 
 msgctxt "#31285"
 msgid "Overview"
@@ -1302,7 +1302,7 @@ msgstr "禁用合集"
 
 # DO NOT TRANSLATE THIS STRING!!!
 msgctxt "#31318"
-msgid "Bingie Episodes"
+msgid "DiggzFlix Episodes"
 msgstr ""
 
 msgctxt "#31319"
@@ -1314,8 +1314,8 @@ msgid "Enable Top 250 sublabel on video info"
 msgstr "在视频信息启用 Top 250 子标签"
 
 msgctxt "#31321"
-msgid "Bingie views"
-msgstr "Bingie 视图"
+msgid "DiggzFlix views"
+msgstr "DiggzFlix 视图"
 
 msgctxt "#31322"
 msgid "Enable Top 250 sublabel on spotlight"
@@ -1338,8 +1338,8 @@ msgid "Trakt Popular Movies"
 msgstr "Trakt 热门电影"
 
 msgctxt "#31327"
-msgid "Clearlogo/title position (except Bingie views)"
-msgstr "透明徽标/标题位置（Bingie 视图除外）"
+msgid "Clearlogo/title position (except DiggzFlix views)"
+msgstr "透明徽标/标题位置（DiggzFlix 视图除外）"
 
 msgctxt "#31328"
 msgid "Trakt Trending TV Shows"
@@ -1575,8 +1575,8 @@ msgid "TV Action & Adventure"
 msgstr "动作冒险剧集"
 
 msgctxt "#31387"
-msgid "Welcome to Bingie"
-msgstr "欢迎使用 Bingie"
+msgid "Welcome to DiggzFlix"
+msgstr "欢迎使用 DiggzFlix"
 
 msgctxt "#31388"
 msgid ""
@@ -1612,19 +1612,19 @@ msgstr "歌词颜色"
 
 msgctxt "#31395"
 msgid ""
-"With Bingie you can have all of your Kodi and library content in one place, through the use of widgets.[CR][CR]Home widgets and hubs can be configured from:[CR][COLOR white]    - Skin settings -> Configure shortcuts[CR][CR]The skin is pre-packed with widgets for movies & TV shows.[CR]If you haven't added "
-"files to your video library yet, now is a good time.[CR]Otherwise, you will start with TMDb Bingie Helper widgets.[/COLOR][CR][CR][COLOR ff41b957]TMDb Bingie Helper doesn't play any content by itself. To watch movies or TV shows, you need a separate plugin for that. If you want, you can then configure "
-"TMDb Bingie Helper to use it for playing content:[CR]    - Skin settings -> Supported addons -> TMDb Bingie Helper -> Players[CR]You can always replace the default skin widgets with your own.[/COLOR]"
+"With DiggzFlix you can have all of your Kodi and library content in one place, through the use of widgets.[CR][CR]Home widgets and hubs can be configured from:[CR][COLOR white]    - Skin settings -> Configure shortcuts[CR][CR]The skin is pre-packed with widgets for movies & TV shows.[CR]If you haven't added "
+"files to your video library yet, now is a good time.[CR]Otherwise, you will start with TMDb DiggzFlix Helper widgets.[/COLOR][CR][CR][COLOR ff41b957]TMDb DiggzFlix Helper doesn't play any content by itself. To watch movies or TV shows, you need a separate plugin for that. If you want, you can then configure "
+"TMDb DiggzFlix Helper to use it for playing content:[CR]    - Skin settings -> Supported addons -> TMDb DiggzFlix Helper -> Players[CR]You can always replace the default skin widgets with your own.[/COLOR]"
 msgstr ""
-"通过 Bingie，你可以将所有 Kodi 内容和媒体库资源集中在一处，借助小组件实现。[CR][CR]主界面小组件和分类聚合中心可通过以下路径配置：[CR][COLOR white]    - 皮肤设置 -> 配置快捷方式[CR][CR]该皮肤预装了电影和剧集的专属小组件。[CR]若你尚未向视频媒体库添加文件，现在正是合适时机。[CR]否则，你将默认使用 TMDb Bingie Helper 小组件。[/COLOR][CR][CR][COLOR ff41b957]TMDb Bingie Helper 本身不直接播放任何内容。如需观看电影或剧集，你需要安装独立的播放插件。如需关联播放功能，可按以下路径配置：[CR]    - 皮肤设置 -> 支持的插件 -> TMDb Bingie Helper -> 播放器[CR]你也可以随时将皮肤默认小组件替换为你自定义的小组件。[/COLOR]"
+"通过 DiggzFlix，你可以将所有 Kodi 内容和媒体库资源集中在一处，借助小组件实现。[CR][CR]主界面小组件和分类聚合中心可通过以下路径配置：[CR][COLOR white]    - 皮肤设置 -> 配置快捷方式[CR][CR]该皮肤预装了电影和剧集的专属小组件。[CR]若你尚未向视频媒体库添加文件，现在正是合适时机。[CR]否则，你将默认使用 TMDb DiggzFlix Helper 小组件。[/COLOR][CR][CR][COLOR ff41b957]TMDb DiggzFlix Helper 本身不直接播放任何内容。如需观看电影或剧集，你需要安装独立的播放插件。如需关联播放功能，可按以下路径配置：[CR]    - 皮肤设置 -> 支持的插件 -> TMDb DiggzFlix Helper -> 播放器[CR]你也可以随时将皮肤默认小组件替换为你自定义的小组件。[/COLOR]"
 
 msgctxt "#31396"
 msgid "Add videos to library"
 msgstr "添加视频到媒体库"
 
 msgctxt "#31397"
-msgid "Get started with Bingie"
-msgstr "Bingie 入门指南"
+msgid "Get started with DiggzFlix"
+msgstr "DiggzFlix 入门指南"
 
 msgctxt "#31398"
 msgid "Thriller"
@@ -1663,8 +1663,8 @@ msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Configure display and audio · En
 msgstr "[B]配置系统设置[/B][CR][CR]配置显示和音频 · 启用调试"
 
 msgctxt "#31407"
-msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup Bingie · Configure home screen and hubs"
-msgstr "[B]配置皮肤设置[/B][CR][CR]设置 Bingie 皮肤 · 配置主屏幕和分类聚合中心"
+msgid "[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup DiggzFlix · Configure home screen and hubs"
+msgstr "[B]配置皮肤设置[/B][CR][CR]设置 DiggzFlix 皮肤 · 配置主屏幕和分类聚合中心"
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Browse, install and manage add-ons"
@@ -1836,8 +1836,8 @@ msgid "Fantasy"
 msgstr "奇幻"
 
 msgctxt "#31447"
-msgid "Bingie landscape tag sublabel"
-msgstr "Bingie 横向布局标签子标签"
+msgid "DiggzFlix landscape tag sublabel"
+msgstr "DiggzFlix 横向布局标签子标签"
 
 msgctxt "#31448"
 msgid "Crime"
@@ -1905,8 +1905,8 @@ msgid "Select a color theme"
 msgstr "选择颜色主题"
 
 msgctxt "#31464"
-msgid "Bingie skin allows you to customize almost every color manually. You can save your customizations as a color theme or reset everything to default."
-msgstr "Bingie 皮肤允许你手动自定义几乎所有颜色。你可以将自定义设置保存为颜色主题，或重置所有设置为默认值。"
+msgid "DiggzFlix skin allows you to customize almost every color manually. You can save your customizations as a color theme or reset everything to default."
+msgstr "DiggzFlix 皮肤允许你手动自定义几乎所有颜色。你可以将自定义设置保存为颜色主题，或重置所有设置为默认值。"
 
 msgctxt "#31465"
 msgid "Customize submenu"
@@ -2161,8 +2161,8 @@ msgid "Premiered in"
 msgstr "首播于"
 
 msgctxt "#31528"
-msgid "Play next episode (TMDb Bingie Helper)"
-msgstr "播放下集 (TMDb Bingie Helper)"
+msgid "Play next episode (TMDb DiggzFlix Helper)"
+msgstr "播放下集 (TMDb DiggzFlix Helper)"
 
 msgctxt "#31529"
 msgid "Posters"
@@ -2241,8 +2241,8 @@ msgid "OSD progress bar border color"
 msgstr "屏幕显示进度条边框颜色"
 
 msgctxt "#31548"
-msgid "Bingie Top 250 icon color"
-msgstr "Bingie Top 250 图标颜色"
+msgid "DiggzFlix Top 250 icon color"
+msgstr "DiggzFlix Top 250 图标颜色"
 
 msgctxt "#31549"
 msgid "Play next episode (local library)"

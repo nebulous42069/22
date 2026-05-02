@@ -2618,7 +2618,7 @@ v0.2.3
 			<fanart>resources/fanart.jpg</fanart>			
 		</assets>
 	</extension>
-</addon><addon id="skin.diggzflix2" version="2.0.2" name="Bingie" provider-name="matke">
+</addon><addon id="skin.diggzflix2" version="22.0.2" name="[B][COLOR gold]DiggzFlix 2[/COLOR][/B]  (Mid Power)" provider-name="matke">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui" />
 		<import addon="script.bingie.helper" version="1.1.2" />
