@@ -1975,6 +1975,17 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon><addon id="resource.images.recordlabels.white" name="Recordlabel Icons - White" version="0.0.7" provider-name="Team Kodi">
+	<extension point="kodi.resource.images" compile="true" type="recordlabels" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Recordlabel Icons</summary>
+		<description lang="en">White Recordlabel Icons</description>
+		<platform>all</platform>
+		<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+	</extension>
 </addon><addon id="resource.images.skinbackgrounds.diggzkidz" name="Skin Backgrounds - Diggz Kidz" version="0.0.1" provider-name="Helly">
 	<extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
 	<requires>
