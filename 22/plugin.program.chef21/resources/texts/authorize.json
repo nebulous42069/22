@@ -28,10 +28,6 @@
             {
                 "name": "Install The Crew (Debrid ONLY)",
                 "url": "installaddon(plugin.video.thecrew)"
-            },
-            {
-                "name": "Install Elementum (Free Torrents- VPN Required!!)",
-                "url": "installaddon(plugin.video.elementum)"
             }
                 ]
             },
@@ -74,14 +70,6 @@
             {
                 "name": "The Crew Trakt",
                 "url": "RunPlugin(plugin://plugin.video.thecrew/?action=authTrakt)"
-            },
-            {
-                "name": "Diggz Free99 Trakt",
-                "url": "Addon.OpenSettings(plugin.video.fre99)"
-            },
-            {
-                "name": "Elementum Trakt",
-                "url": "Addon.OpenSettings(plugin.video.elementum)"
             },
             {
                 "name": "Kodi Trakt Addon",
