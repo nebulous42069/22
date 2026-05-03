@@ -1923,6 +1923,31 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 				<icon>icon.png</icon>
 		</assets>
     </extension>
+</addon><addon id="script.bingie.toolbox" name="Bingie Toolbox" version="1.0.0" provider-name="matke">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0" />
+        <import addon="xbmc.addon" version="12.0.0" />
+        <import addon="script.module.simplejson" version="3.3.0" />
+		<import addon="script.module.simplecache" version="1.0.0" />
+    </requires>
+
+    <extension point="xbmc.python.library" library="default.py" />
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Bingie Toolbox</summary>
+        <description>Toolbox for Bingie skin.</description>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <language />
+        <platform>all</platform>
+        <license>GPL v2.0</license>
+        <forum />
+        <website />
+        <source />
+    </extension>
 </addon><addon id="script.diggzskins" name="Diggz Skin Switcher" version="501" provider-name="Diggz">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
@@ -2278,7 +2303,7 @@ v0.2.3
     </assets>
     <news>See changelog for latest changes</news>
   </extension>
-</addon><addon id="skin.eminence.2.mod" version="421.3.0.4" name="[B][COLOR gold]Eminence[/COLOR][/B]  (Mid Power)" provider-name="Diggz">
+</addon><addon id="skin.eminence.2.mod" version="422.3.0.4" name="[B][COLOR gold]Eminence[/COLOR][/B]  (Mid Power)" provider-name="Diggz">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinshortcuts" version="1.0.0" />
