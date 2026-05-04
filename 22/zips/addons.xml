@@ -1891,6 +1891,16 @@ All changes on GitHub: https://github.com/aitschti/plugin.video.sc19
 		<description lang="en">Skin Backgrounds Pack - Xenon Design</description>
 		<platform>all</platform>
 	</extension>
+</addon><addon id="resource.images.weatherfanart.single" name="Weather Fanart - Single" version="0.0.1" provider-name="Silverxxx,Team Kodi">
+	<extension point="kodi.resource.images" compile="false" type="weather" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Weather Fanart Single</summary>
+		<description lang="en">A single Weather Fanart image for every weather condition</description>
+		<platform>all</platform>
+	</extension>
 </addon><addon id="script.autorunsxenon" name="Autoruns Xenon" version="20" provider-name="fight night, Jon Bovi">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
